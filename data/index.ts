@@ -66,9 +66,9 @@ export const infoData = [
       "Yoga und Sporttherapie bieten eine ganzheitliche Methode, Körper und Geist in Einklang zu bringen. Yoga, eine jahrtausendealte Praxis, vereint körperliche Übungen, Atemtechniken und Meditation, um Flexibilität, Kraft und innere Ruhe zu fördern. Sporttherapie ergänzt diese Ansätze durch gezielte Bewegungsprogramme, die auf individuelle gesundheitliche Bedürfnisse abgestimmt sind. Zusammen können Yoga und Sporttherapie helfen, Stress abzubauen, Verletzungen zu rehabilitieren und die allgemeine körperliche Fitness zu verbessern.",
     secondParagraph:
       "Diese Kombination unterstützt nicht nur die physische Gesundheit, sondern fördert auch das mentale Wohlbefinden, indem sie Achtsamkeit und Entspannung in den Alltag integriert.",
-    firstImgUrl: "/assets/startseite/1.jpg",
+    firstImgUrl: "/assets/startseite/1.JPG",
     firstImgAlt: "Buddha auf Fensterbrett",
-    secondImgUrl: "/assets/startseite/3.jpg",
+    secondImgUrl: "/assets/startseite/2.JPG",
     secondImgAlt: "Buddha Kerze anzünden",
   },
 ];
