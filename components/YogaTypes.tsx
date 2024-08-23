@@ -50,6 +50,7 @@ const YogaTypes = () => {
             </h3>
             <div className="relative mb-6 lg:mb-0">
               <Image
+                unoptimized
                 src="/assets/IMG_6703.JPG"
                 alt=""
                 width={500}
