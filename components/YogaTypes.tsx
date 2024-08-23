@@ -24,7 +24,7 @@ const YogaTypes = () => {
             <div className="relative mb-6 lg:mb-0">
               <Image
                 src="/assets/yin.jpg"
-                alt=""
+                alt="yin yoga"
                 width={500}
                 height={500}
                 className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen"
