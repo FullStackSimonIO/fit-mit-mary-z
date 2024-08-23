@@ -16,7 +16,7 @@ const content = [
           width={300}
           height={300}
           alt=""
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover bg-transparent"
         />
       </div>
     ),
@@ -29,24 +29,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/assets/Logo.jpg"
-          width={300}
-          height={300}
-          className="h-full w-full object-cover"
-          alt="linear board demo"
-        />
-      </div>
-    ),
-  },
-  {
-    title: "Fortbildung - Medizinische Trainingstherapie",
-    date: "Mai 2023 - Januar 2024",
-    description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
-    content: (
-      <div className="h-full w-full  flex items-center justify-center text-white">
-        <Image
-          src="/assets/YogaraumGANZ.jpg"
+          src="/assets/ueber-mich/medizinische-trainingstherapie.svg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -63,7 +46,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/assets/YogoraumKerzen.jpg"
+          src="/assets/ueber-mich/yogalehrerin.svg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -80,7 +63,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/yin.jpg"
+          src="/assets/ueber-mich/aqua-fitness.svg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -97,7 +80,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/linear.webp"
+          src="/assets/ueber-mich/jumping-fitness.svg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -114,7 +97,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/linear.webp"
+          src="/assets/ueber-mich/yoga-intense.svg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -131,7 +114,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/linear.webp"
+          src="/assets/ueber-mich/diplom.svg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
