@@ -23,7 +23,7 @@ const YogaTypes = () => {
             </h3>
             <div className="relative mb-6 lg:mb-0">
               <Image
-                src="/assets/yin.jpg"
+                src="/assets/Yin.jpg"
                 alt="yin yoga"
                 width={500}
                 height={500}
