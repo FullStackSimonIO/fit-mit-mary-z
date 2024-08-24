@@ -7,7 +7,7 @@ import React from "react";
 
 const LandingOffers = () => {
   return (
-    <section className="bg-[#EEFFF3]">
+    <section className="bg-[#EEFFF3] w-full flex items-center justify-center">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-[#0F3B1C]">
           {landingOffersHeader}

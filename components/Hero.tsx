@@ -19,7 +19,7 @@ export function Hero() {
 
   return (
     <section
-      className="h-[400vh] bg-transparent w-full dark:border dark:border-white/[0.1] rounded-md relative pt-40 overflow-clip"
+      className="h-screen w-full bg-transparent rounded-md relative pt-40 overflow-clip"
       ref={ref}
     >
       <GoogleGeminiEffect

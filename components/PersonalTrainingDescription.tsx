@@ -4,6 +4,9 @@ import React from "react";
 const PersonalTrainingDescription = () => {
   return (
     <section className="bg-primary-backgroundGreen px-4 py-8 antialiased md:py-16">
+      <h2 className="flex items-center justify-center text-3xl text-primary-paragraph font-bold pb-10">
+        Personal Training:
+      </h2>
       <div className="mx-auto grid max-w-screen-xl rounded-lg bg-gray-50 p-4 md:p-8 lg:grid-cols-12 lg:gap-8 lg:p-16 xl:gap-16">
         <div className="lg:col-span-5 lg:mt-0">
           <a href="#">
