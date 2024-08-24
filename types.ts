@@ -5,4 +5,5 @@ export interface Course {
   time: string; // HH:MM
   endDate: string;
   description: string;
+  imgUrl: string;
 }

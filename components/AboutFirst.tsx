@@ -5,45 +5,49 @@ import { aboutFirst } from "@/data";
 
 const AboutFirst = () => {
   return (
-    <section className="bg-primary-backgroundGreen antialiased">
-      <div className="max-w-screen-xl px-4 py-32 mx-auto lg:px-6 lg:py-24">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-primary-buttonGreen sm:text-4xl">
-            {aboutFirst.header.title}
-          </h2>
-          <p className="mt-4 text-base font-normal text-gray-800 sm:text-xl">
-            {aboutFirst.header.description}
-          </p>
-        </div>
+    <>
+      <section className="bg-primary-backgroundGreen antialiased flex items-center w-full h-screen">
+        <div className="max-w-screen-xl px-4 py-32 mx-auto lg:px-6 lg:py-24">
+          <div className="max-w-2xl mx-auto text-center">
+            <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-primary-buttonGreen sm:text-4xl">
+              {aboutFirst.header.title}
+            </h2>
+            <p className="mt-4 text-base font-normal text-gray-800 sm:text-xl">
+              {aboutFirst.header.description}
+            </p>
+          </div>
 
-        {/* About Section */}
-        <div className="mt-12 space-y-16 sm:mt-16">
-          <div className="flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
-            <div className="w-full lg:w-auto">
-              <Image
-                src={aboutFirst.firstSection.imgUrl}
-                alt="Image"
-                width={500}
-                height={500}
-                className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen"
-              />
-            </div>
-            <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl">
-              <div className="space-y-3">
-                <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl">
-                  {aboutFirst.firstSection.header}
-                </h3>
-                <p className="text-base font-normal text-primary-paragraph sm:text-lg">
-                  {aboutFirst.firstSection.firstParagraph}
-                </p>
+          {/* About Section */}
+          <div className="mt-12 space-y-16 sm:mt-16">
+            <div className="flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
+              <div className="w-full lg:w-auto">
+                <Image
+                  src={aboutFirst.firstSection.imgUrl}
+                  alt="Image"
+                  width={500}
+                  height={500}
+                  className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen"
+                />
+              </div>
+              <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl">
+                <div className="space-y-3">
+                  <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl">
+                    {aboutFirst.firstSection.header}
+                  </h3>
+                  <p className="text-base font-normal text-primary-paragraph sm:text-lg">
+                    {aboutFirst.firstSection.firstParagraph}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div className="flex flex-col-reverse lg:flex-row lg:items-center gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24 pt-12">
+      <section className="w-full min-h-screen flex flex-col justify-center items-center px-4">
+        <div className="flex flex-col-reverse lg:flex-row lg:items-center gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
           <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl">
-            <div className="space-y-3">
+            <div className="space-y-3 text-center lg:text-left">
               <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl">
                 {aboutFirst.secondSection.header}
               </h3>
@@ -52,7 +56,7 @@ const AboutFirst = () => {
               </p>
             </div>
           </div>
-          <div className="w-full lg:w-auto">
+          <div className="w-full lg:w-auto flex justify-center lg:justify-end">
             <Image
               src={aboutFirst.secondSection.imgUrl}
               alt="img"
@@ -65,7 +69,7 @@ const AboutFirst = () => {
 
         <div className="mt-12 space-y-16 sm:mt-16">
           <div className="flex flex-col lg:flex-row lg:items-center gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
-            <div className="w-full lg:w-auto">
+            <div className="w-full lg:w-auto flex justify-center lg:justify-start">
               <Image
                 src={aboutFirst.thirdSection.imgUrl}
                 alt="Image"
@@ -75,7 +79,7 @@ const AboutFirst = () => {
               />
             </div>
             <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl">
-              <div className="space-y-3">
+              <div className="space-y-3 text-center lg:text-left">
                 <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl">
                   {aboutFirst.thirdSection.header}
                 </h3>
@@ -108,8 +112,8 @@ const AboutFirst = () => {
             </svg>
           </Button>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

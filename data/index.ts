@@ -242,11 +242,12 @@ export const wirbelsäulengymnastikData = {
 export const exampleCourses: Course[] = [
   {
     id: "1",
-    title: "Yoga für Anfänger",
+    title: "Auszeit für Dich - Hatha Yoga für Anfänger",
     startDate: "2024-09-01",
     time: "10:00",
     endDate: "2024-09-01",
     description: "Einführung in die Welt des Yoga für absolute Anfänger.",
+    imgUrl: "/assets/kursuebersicht/kursuebersicht-figur-hochformat.JPG",
   },
   {
     id: "2",
@@ -255,6 +256,7 @@ export const exampleCourses: Course[] = [
     time: "18:00",
     endDate: "2024-09-02",
     description: "Hatha Yoga mit fortgeschrittenen Asanas.",
+    imgUrl: "/assets/kursuebersicht/kursuebersicht-yogaraum-hochformat.JPG",
   },
   {
     id: "3",
@@ -263,5 +265,6 @@ export const exampleCourses: Course[] = [
     time: "20:00",
     endDate: "2024-09-03",
     description: "Geführte Meditationen zur Entspannung und Stressbewältigung.",
+    imgUrl: "/assets/kursuebersicht/kursuebersicht-hatha-yoga-hochformat-2.JPG",
   },
 ];

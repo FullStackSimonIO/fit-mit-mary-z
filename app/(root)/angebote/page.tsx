@@ -8,6 +8,7 @@ import YogaOffers from "@/components/YogaOffers";
 import YogaTypes from "@/components/YogaTypes";
 import React from "react";
 import PersonalTrainingSection from "@/components/PersonalTrainingSection";
+import Ernährungsberatung from "@/components/Ernährungsberatung";
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
       <YogaOffers />
       <Wirbelsäulengymnastik />
       <PersonalTrainingSection />
+      <Ernährungsberatung />
       <Footer />
     </div>
   );

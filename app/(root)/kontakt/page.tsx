@@ -8,11 +8,9 @@ import React from "react";
 const page = () => {
   return (
     <MapProvider>
-      <div>
-        <Navbar />
-        <ContactForm />
-        <Footer />
-      </div>
+      <Navbar />
+      <ContactForm />
+      <Footer />
     </MapProvider>
   );
 };
