@@ -23,7 +23,7 @@ const YogaTypes = () => {
             </h3>
             <div className="relative mb-6 lg:mb-0">
               <Image
-                src="/assets/Yin.jpg"
+                src="/assets/angebote/angebote-yin-yoga-querformat.jpg"
                 alt="yin yoga"
                 width={500}
                 height={500}
@@ -51,7 +51,7 @@ const YogaTypes = () => {
             <div className="relative mb-6 lg:mb-0">
               <Image
                 unoptimized
-                src="/assets/IMG_6703.JPG"
+                src="/assets/angebote/angebote-hatha-yoga-querformat.JPG"
                 alt=""
                 width={500}
                 height={500}

@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import PersonalTrainingTable from "@/components/PersonalTraining";
+import PersonalTrainingDescription from "@/components/PersonalTrainingDescription";
 
 import Wirbelsäulengymnastik from "@/components/Wirbelsäulengymnastik";
 import YogaOffers from "@/components/YogaOffers";
@@ -14,6 +15,7 @@ const page = () => {
       <YogaTypes />
       <YogaOffers />
       <Wirbelsäulengymnastik />
+      <PersonalTrainingDescription />
       <PersonalTrainingTable />
       <Footer />
     </div>
