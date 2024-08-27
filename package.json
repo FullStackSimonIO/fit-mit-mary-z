@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^5.2.8",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^5.16.7",
     "@radix-ui/react-navigation-menu": "^1.2.0",
     "@react-google-maps/api": "^2.19.3",
     "@tabler/icons-react": "^3.11.0",

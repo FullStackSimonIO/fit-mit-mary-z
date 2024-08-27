@@ -48,10 +48,6 @@ const ContactForm = () => {
           <h2 className="mb-4 pt-10 text-4xl tracking-tight font-extrabold text-primary-buttonGreen">
             Kontaktiere Mich:
           </h2>
-          <p className="font-light text-gray-600 sm:text-xl">
-            Hier kannst du mir ganz unkompliziert eine Nachricht zukommen
-            lassen. Ich werde mich so schnell wie möglich bei dir melden.
-          </p>
         </div>
         <div className="grid grid-cols-1 lg:gap-8 lg:grid-cols-3">
           <div className="col-span-2 mb-8 lg:mb-0">
@@ -191,25 +187,6 @@ const ContactForm = () => {
                 94550 Künzing <br />
                 Deutschland
                 <br />
-              </p>
-            </div>
-            <div>
-              <div className="flex justify-center items-center mx-auto mb-4 w-10 h-10 bg-primary-buttonGreen rounded-lg lg:h-16 lg:w-16">
-                <svg
-                  className="w-5 h-5 text-gray-600 lg:w-8 lg:h-8"
-                  fill="#EEFFF3"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M2.94 7.66a8 8 0 018-6.66v2a6 6 0 100 12v2a8 8 0 01-8-6.66z"></path>
-                </svg>
-              </div>
-              <p className="mb-2 text-xl font-bold text-gray-900">
-                Öffnungszeiten:
-              </p>
-              <p className="text-gray-500">
-                Montag bis Freitag <br />
-                9:00 AM - 5:00 PM
               </p>
             </div>
           </div>
