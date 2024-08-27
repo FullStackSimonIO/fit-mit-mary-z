@@ -289,6 +289,168 @@ const DatenschutzverordnungPage = () => {
             jederzeit an uns wenden. Das Recht auf Einschränkung der
             Verarbeitung besteht in folgenden Fällen:
           </p>
+          <ul>
+            <li>
+              • Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten
+              personenbezogenen Daten bestreiten, benötigen wir in der Regel
+              Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie
+              das Recht, die Einschränkung der Verarbeitung Ihrer
+              personenbezogenen Daten zu verlangen.
+            </li>
+            <li>
+              • Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig
+              geschah/geschieht, können Sie statt der Löschung die Einschränkung
+              der Datenverarbeitung verlangen.
+            </li>
+            <li>
+              • Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie
+              sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von
+              Rechtsansprüchen benötigen, haben Sie das Recht, statt der
+              Löschung die Einschränkung der Verarbeitung Ihrer
+              personenbezogenen Daten zu verlangen.
+            </li>
+            <li>
+              • Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt
+              haben, muss eine Abwägung zwischen Ihren und unseren Interessen
+              vorgenommen werden. Solange noch nicht feststeht, wessen
+              Interessen überwiegen, haben Sie das Recht, die Einschränkung der
+              Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+            </li>
+          </ul>
+          <p>
+            Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten
+            eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung
+            abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung,
+            Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der
+            Rechte einer anderen natürlichen oder juristischen Person oder aus
+            Gründen eines wichtigen öffentlichen Interesses der Europäischen
+            Union oder eines Mitgliedstaats verarbeitet werden.
+          </p>
+        </div>
+
+        <div className="">
+          <h3>Widerspruch gegen Werbe-E-Mails</h3>
+          <p>
+            Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten
+            Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter
+            Werbung und Informationsmaterialien wird hiermit widersprochen. Die
+            Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte
+            im Falle der unverlangten Zusendung von Werbeinformationen, etwa
+            durch Spam-E-Mails, vor.
+          </p>
+        </div>
+
+        <h2>4. Datenerfassung auf dieser Website</h2>
+        <div className="">
+          <h3>Cookies</h3>
+          <p>
+            Unsere Internetseiten verwenden so genannte „Cookies“. Cookies sind
+            kleine Textdateien und richten auf Ihrem Endgerät keinen Schaden an.
+            Sie werden entweder vorübergehend für die Dauer einer Sitzung
+            (Session-Cookies) oder dauerhaft (permanente Cookies) auf Ihrem
+            Endgerät gespeichert. Session-Cookies werden nach Ende Ihres Besuchs
+            automatisch gelöscht. Permanente Cookies bleiben auf Ihrem Endgerät
+            gespeichert, bis Sie diese selbst löschen oder eine automatische
+            Löschung durch Ihren Webbrowser erfolgt.
+          </p>
+          <p>
+            Teilweise können auch Cookies von Drittunternehmen auf Ihrem
+            Endgerät gespeichert werden, wenn Sie unsere Seite betreten
+            (Third-Party-Cookies). Diese ermöglichen uns oder Ihnen die Nutzung
+            bestimmter Dienstleistungen des Drittunternehmens (z. B. Cookies zur
+            Abwicklung von Zahlungsdienstleistungen).
+          </p>
+          <p>
+            Cookies haben verschiedene Funktionen. Zahlreiche Cookies sind
+            technisch notwendig, da bestimmte Websitefunktionen ohne diese nicht
+            funktionieren würden (z. B. die Warenkorbfunktion oder die Anzeige
+            von Videos). Andere Cookies dienen dazu, das Nutzerverhalten
+            auszuwerten oder Werbung anzuzeigen.
+          </p>
+          <p>
+            Cookies, die zur Durchführung des elektronischen
+            Kommunikationsvorgangs (notwendige Cookies) oder zur Bereitstellung
+            bestimmter, von Ihnen erwünschter Funktionen (funktionale Cookies,
+            z. B. für die Warenkorbfunktion) oder zur Optimierung der Website
+            (z. B. Cookies zur Messung des Webpublikums) erforderlich sind,
+            werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert,
+            sofern keine andere Rechtsgrundlage angegeben wird. Der
+            Websitebetreiber hat ein berechtigtes Interesse an der Speicherung
+            von Cookies zur technisch fehlerfreien und optimierten
+            Bereitstellung seiner Dienste. Sofern eine Einwilligung zur
+            Speicherung von Cookies abgefragt wurde, erfolgt die Speicherung der
+            betreffenden Cookies ausschließlich auf Grundlage dieser
+            Einwilligung (Art. 6 Abs. 1 lit. a DSGVO); die Einwilligung ist
+            jederzeit widerrufbar.
+          </p>
+          <p>
+            Sie können Ihren Browser so einstellen, dass Sie über das Setzen von
+            Cookies informiert werden und Cookies nur im Einzelfall erlauben,
+            die Annahme von Cookies für bestimmte Fälle oder generell
+            ausschließen sowie das automatische Löschen der Cookies beim
+            Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies
+            kann die Funktionalität dieser Website eingeschränkt sein.
+          </p>
+          <p>
+            Soweit Cookies von Drittunternehmen oder zu Analysezwecken
+            eingesetzt werden, werden wir Sie hierüber im Rahmen dieser
+            Datenschutzerklärung gesondert informieren und ggf. eine
+            Einwilligung abfragen.
+          </p>
+        </div>
+
+        <div className="">
+          <h3>Server-Log-Dateien</h3>
+          <p>
+            Der Provider der Seiten erhebt und speichert automatisch
+            Informationen in so genannten Server-Log-Dateien, die Ihr Browser
+            automatisch an uns übermittelt. Dies sind:
+          </p>
+          <ul>
+            <li>• Browsertyp und Browserversion</li>
+            <li>• verwendetes Betriebssystem</li>
+            <li>• Referrer URL</li>
+            <li>• Hostname des zugreifenden Rechners</li>
+            <li>• Uhrzeit der Serveranfrage</li>
+            <li>• IP-Adresse</li>
+          </ul>
+          <p>
+            Eine Zusammenführung dieser Daten mit anderen Datenquellen wird
+            nicht vorgenommen. <br />
+            Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1
+            lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an
+            der technisch fehlerfreien Darstellung und der Optimierung seiner
+            Website – hierzu müssen die Server-Log-Files erfasst werden.
+          </p>
+        </div>
+
+        <div className="">
+          <h3>Kontaktformular</h3>
+          <p>
+            Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden
+            Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort
+            angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den
+            Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir
+            nicht ohne Ihre Einwilligung weiter.
+          </p>
+          <p>
+            Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs.
+            1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags
+            zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen
+            erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung
+            auf unserem berechtigten Interesse an der effektiven Bearbeitung der
+            an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf
+            Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese
+            abgefragt wurde.
+          </p>
+          <p>
+            Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei
+            uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur
+            Speicherung widerrufen oder der Zweck für die Datenspeicherung
+            entfällt (z. B. nach abgeschlossener Bearbeitung Ihrer Anfrage).
+            Zwingende gesetzliche Bestimmungen – insbesondere
+            Aufbewahrungsfristen – bleiben unberührt.
+          </p>
         </div>
       </div>
     </section>
