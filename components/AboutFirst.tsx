@@ -6,7 +6,7 @@ import { aboutFirst } from "@/data";
 const AboutFirst = () => {
   return (
     <>
-      <section className="bg-primary-backgroundGreen antialiased flex items-center w-full h-screen">
+      <section className="bg-primary-backgroundGreen antialiased  py-36 w-full ">
         <div className="max-w-screen-xl px-4 py-32 mx-auto lg:px-6 lg:py-24">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-primary-buttonGreen sm:text-4xl">

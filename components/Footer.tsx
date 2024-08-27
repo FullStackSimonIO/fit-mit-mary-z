@@ -1,5 +1,7 @@
-import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
 
 import Image from "next/image";
 import React from "react";
@@ -52,18 +54,18 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-50 font-medium">
                 <li className="mb-2">
-                  <a href="#" className="hover:underline ">
-                    Nutzungsbedingungen
+                  <a href="/teilnahmebedingungen" className="hover:underline ">
+                    Teilnahmebedingungen
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="hover:underline">
-                    Lizenzvereinbarung
+                  <a href="/datenschutzverordnung" className="hover:underline">
+                    Datenschutzverordnung
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="hover:underline">
-                    AGB
+                  <a href="/impressum" className="hover:underline">
+                    Impressum
                   </a>
                 </li>
               </ul>
@@ -109,19 +111,38 @@ const Footer = () => {
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a
-              href="https://www.instagram.com/fitmitmaryz/"
+              href="https://www.instagram.com/simon.edh/"
               className="text-gray-50 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <FaInstagram className="w-5 h-5 " />
               <span className="sr-only">Instagram</span>
             </a>
+
             <a
-              href="https://www.facebook.com/maria.zillinger"
+              href="https://github.com/fullstacksimonio"
               className="text-gray-50 hover:text-gray-900 dark:hover:text-white ms-5"
             >
-              <FaFacebook className="w-5 h-5" />
+              <FaGithub className="w-5 h-5" />
 
-              <span className="sr-only">Facebook Account</span>
+              <span className="sr-only">Github</span>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/simon-edholzer-433431262/"
+              className="text-gray-50 hover:text-gray-900 dark:hover:text-white ms-5"
+            >
+              <FaLinkedin className="w-5 h-5" />
+
+              <span className="sr-only">LinkedIn</span>
+            </a>
+
+            <a
+              href="https://www.discordapp.com/users/786536339604242434"
+              className="text-gray-50 hover:text-gray-900 dark:hover:text-white ms-5"
+            >
+              <FaDiscord className="w-5 h-5" />
+
+              <span className="sr-only">Discord</span>
             </a>
           </div>
         </div>

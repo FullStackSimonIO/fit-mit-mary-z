@@ -1,8 +1,8 @@
 import React from "react";
 
-const ImpressumPage = () => {
+const Impress = () => {
   return (
-    <section className="bg-primary-backgroundGreen py-12 px-4 lg:px-24">
+    <section className="bg-primary-backgroundGreen py-36 px-4 lg:px-24">
       <div className="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-6 lg:p-12">
         <h1 className="text-3xl font-bold text-center mb-8 text-primary-buttonGreen">
           Impressum
@@ -93,4 +93,4 @@ const ImpressumPage = () => {
   );
 };
 
-export default ImpressumPage;
+export default Impress;
