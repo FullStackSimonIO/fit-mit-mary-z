@@ -1,7 +1,5 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import PersonalTrainingTable from "@/components/PersonalTrainingTable";
-import PersonalTrainingDescription from "@/components/PersonalTrainingDescription";
 
 import Wirbelsäulengymnastik from "@/components/Wirbelsäulengymnastik";
 import YogaOffers from "@/components/YogaOffers";

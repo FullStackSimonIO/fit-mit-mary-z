@@ -12,7 +12,7 @@ const AboutFirst = () => {
             <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-primary-buttonGreen sm:text-4xl">
               {aboutFirst.header.title}
             </h2>
-            <p className="mt-4 text-base font-normal text-gray-800 sm:text-xl">
+            <p className="mt-4 text-base font-semibold text-primary-paragraph sm:text-xl">
               {aboutFirst.header.description}
             </p>
           </div>
@@ -34,7 +34,7 @@ const AboutFirst = () => {
                   <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl">
                     {aboutFirst.firstSection.header}
                   </h3>
-                  <p className="text-base font-normal text-primary-paragraph sm:text-lg">
+                  <p className="text-base font-semibold text-primary-paragraph sm:text-lg">
                     {aboutFirst.firstSection.firstParagraph}
                   </p>
                 </div>
@@ -51,7 +51,7 @@ const AboutFirst = () => {
               <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl">
                 {aboutFirst.secondSection.header}
               </h3>
-              <p className="text-base font-normal text-primary-paragraph sm:text-lg">
+              <p className="text-base font-semibold text-primary-paragraph sm:text-lg">
                 {aboutFirst.secondSection.secondParagraph}
               </p>
             </div>
@@ -83,7 +83,7 @@ const AboutFirst = () => {
                 <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl">
                   {aboutFirst.thirdSection.header}
                 </h3>
-                <p className="text-base font-normal text-primary-paragraph sm:text-lg">
+                <p className="text-base font-semibold text-primary-paragraph sm:text-lg">
                   {aboutFirst.thirdSection.thirdParagraph}
                 </p>
               </div>

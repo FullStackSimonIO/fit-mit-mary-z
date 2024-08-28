@@ -6,18 +6,17 @@ import { Button } from "./ui/button";
 const YogaOffers = () => {
   return (
     <div>
-      <section className="bg-primary-backgroundGreen py-8 px-4 lg:py-16 lg:px-6 w-full h-screen">
+      <section className="bg-primary-backgroundGreen py-8 px-4 lg:py-16 lg:px-6 w-full min-h-screen">
         <div className="mx-auto max-w-screen-xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-extrabold text-primary-buttonGreen mb-4">
               {yogaOffers.header.title}
             </h2>
-            <p className="text-gray-500 sm:text-xl font-light">
+            <p className="text-primary-paragraph sm:text-xl font-bold">
               {yogaOffers.header.description}
             </p>
           </div>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {/* PRICING CARD START*/}
             {yogaOffers.offers.map((offer) => (
               <div
                 key={offer.id}
@@ -27,15 +26,15 @@ const YogaOffers = () => {
                   <h3 className="text-2xl font-semibold text-primary-buttonGreen mb-4">
                     {offer.title}
                   </h3>
-                  <p className="text-gray-700 sm:text-lg mb-8">
+                  <p className="text-primary-paragraph font-semibold sm:text-lg mb-8">
                     {offer.description}
                   </p>
                   <div className="flex justify-center items-baseline mb-8">
                     <span className="text-5xl font-extrabold text-primary-buttonGreen">{`€${offer.price}`}</span>
-                    <span className="text-gray-500 ml-2 text-lg">/Kurs</span>
+                    <span className="text-primary-paragraph font-semibold ml-2 text-lg">
+                      /Kurs
+                    </span>
                   </div>
-
-                  {/* List */}
                   <ul role="list" className="mb-8 space-y-4">
                     {[
                       offer.ad_1,
@@ -44,7 +43,7 @@ const YogaOffers = () => {
                       offer.ad_4,
                       offer.ad_5,
                     ]
-                      .filter(Boolean) // Filtert leere oder undefined Werte heraus
+                      .filter(Boolean)
                       .map((ad, index) => (
                         <li key={index} className="flex items-center space-x-3">
                           <svg
@@ -59,13 +58,18 @@ const YogaOffers = () => {
                               clipRule="evenodd"
                             ></path>
                           </svg>
-                          <span className="text-gray-700">{ad}</span>
+                          <span className="text-primary-paragraph font-semibold">
+                            {ad}
+                          </span>
                         </li>
                       ))}
                   </ul>
                 </div>
                 <div className="text-center mt-auto">
-                  <Button variant="ghost" className="w-full py-3 text-lg">
+                  <Button
+                    variant="ghost"
+                    className="w-full py-3 text-lg font-bold"
+                  >
                     Termin sichern
                   </Button>
                 </div>

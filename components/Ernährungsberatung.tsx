@@ -4,7 +4,7 @@ import ErnährungsberatungDescription from "./ErnährungsberatungDescription";
 
 const Ernährungsberatung = () => {
   return (
-    <section className="w-full h-screen">
+    <section>
       <ErnährungsberatungDescription />
       <ErnährungsberatungTable />
     </section>

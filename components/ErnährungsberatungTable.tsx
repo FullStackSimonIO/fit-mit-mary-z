@@ -9,9 +9,9 @@ interface TableProps {
 
 const Table: React.FC<TableProps> = ({ headers, data }) => {
   return (
-    <div className="flex justify-center py-8">
+    <div className="flex justify-center py-8 px-4 sm:px-6 lg:px-8">
       <motion.div
-        className="w-full max-w-3xl bg-white rounded-lg shadow-lg overflow-hidden"
+        className="w-full max-w-lg md:max-w-3xl bg-white rounded-lg shadow-lg overflow-hidden"
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
@@ -64,7 +64,6 @@ const Table: React.FC<TableProps> = ({ headers, data }) => {
   );
 };
 
-// Beispiel-Daten und Nutzung der Komponente
 const ErnährungsberatungTable = () => {
   const headers = ["Angebot", "Dauer", "Preis"];
   const data = [

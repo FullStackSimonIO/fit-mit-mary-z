@@ -27,7 +27,7 @@ Grundstruktur der Bildpfade: "/assets/seitenname/bildname.format" (z.B. "/assets
 
 */
 
-import { Course } from "@/types";
+import { Course } from "../types/types";
 
 //* Hier befinden sich allgemeine Daten, die auf der Website angezeigt werden. Diese Daten können hier geändert werden.
 
@@ -248,6 +248,7 @@ export const exampleCourses: Course[] = [
     startDate: "2024-09-01",
     time: "10:00",
     endDate: "2024-09-01",
+    price: "150,00€",
     description: "Einführung in die Welt des Yoga für absolute Anfänger.",
     imgUrl: "/assets/kursuebersicht/kursuebersicht-figur-hochformat.JPG",
   },
@@ -257,6 +258,7 @@ export const exampleCourses: Course[] = [
     startDate: "2024-09-02",
     time: "18:00",
     endDate: "2024-09-02",
+    price: "150,00€",
     description: "Hatha Yoga mit fortgeschrittenen Asanas.",
     imgUrl: "/assets/kursuebersicht/kursuebersicht-yogaraum-hochformat.JPG",
   },
@@ -266,6 +268,7 @@ export const exampleCourses: Course[] = [
     startDate: "2024-09-03",
     time: "20:00",
     endDate: "2024-09-03",
+    price: "150,00€",
     description: "Geführte Meditationen zur Entspannung und Stressbewältigung.",
     imgUrl: "/assets/kursuebersicht/kursuebersicht-hatha-yoga-hochformat-2.JPG",
   },

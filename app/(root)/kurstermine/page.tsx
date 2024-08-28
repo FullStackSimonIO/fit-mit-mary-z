@@ -1,14 +1,16 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import YogaCourses from "@/components/YogaCourses";
+import CourseList from "@/components/CourseList";
+
 import { exampleCourses } from "@/data";
+
 import React from "react";
 
 const page = () => {
   return (
     <div>
       <Navbar />
-      <YogaCourses courses={exampleCourses} />
+      <CourseList />
       <Footer />
     </div>
   );

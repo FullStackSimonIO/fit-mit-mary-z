@@ -10,7 +10,7 @@ const YogaTypes = () => {
           <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-primary-buttonGreen sm:text-4xl">
             {yogaTypes.header.title}
           </h2>
-          <p className="mt-4 text-base font-normal text-gray-800 sm:text-xl">
+          <p className="mt-4 text-base font-bold text-primary-paragraph sm:text-xl">
             {yogaTypes.header.description}
           </p>
         </div>
@@ -35,7 +35,7 @@ const YogaTypes = () => {
               <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl hidden lg:block">
                 {yogaTypes.yinYoga.title}
               </h3>
-              <p className="text-base font-normal text-primary-paragraph sm:text-lg mt-4 lg:mt-0">
+              <p className="text-base font-semibold text-primary-paragraph sm:text-lg mt-4 lg:mt-0">
                 {yogaTypes.yinYoga.description}
               </p>
             </div>
@@ -63,7 +63,7 @@ const YogaTypes = () => {
               <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl hidden lg:block">
                 {yogaTypes.hathaYoga.title}
               </h3>
-              <p className="text-base font-normal text-primary-paragraph sm:text-lg mt-4 lg:mt-0">
+              <p className="text-base font-semibold text-primary-paragraph sm:text-lg mt-4 lg:mt-0">
                 {yogaTypes.hathaYoga.description}
               </p>
             </div>

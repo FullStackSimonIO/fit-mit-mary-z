@@ -10,7 +10,7 @@ const AboutSecond = () => {
           <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-primary-buttonGreen sm:text-4xl ">
             Meine Angebote
           </h2>
-          <p className="mt-4 text-base font-normal text-primary-paragraph sm:text-xl ">
+          <p className="mt-4 text-base font-semibold text-primary-paragraph sm:text-xl ">
             Entdecken Sie eine Auswahl an Kursen, Therapien und
             Beratungsangeboten.
           </p>

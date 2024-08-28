@@ -4,7 +4,7 @@ import PersonalTrainingTable from "./PersonalTrainingTable";
 
 const PersonalTrainingSection = () => {
   return (
-    <section className=" w-full h-screen">
+    <section>
       <PersonalTrainingDescription />
       <PersonalTrainingTable />
     </section>

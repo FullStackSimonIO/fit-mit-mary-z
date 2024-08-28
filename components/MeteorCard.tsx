@@ -17,7 +17,7 @@ export function MeteorsDemo({
             {title}
           </h1>
 
-          <p className="font-normal text-base text-primary-backgroundGreen mb-4 relative z-50">
+          <p className="font-semibold text-base text-primary-backgroundGreen mb-4 relative z-50">
             {description}
           </p>
 

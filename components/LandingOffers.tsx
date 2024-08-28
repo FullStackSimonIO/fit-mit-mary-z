@@ -19,7 +19,7 @@ const LandingOffers = () => {
             <h3 className="mb-2 text-xl font-bold text-[#0F3B1C]">
               {landingOffersData[0].title}
             </h3>
-            <p className="mb-4 text-gray-500 dark:text-gray-400">
+            <p className="mb-4 text-primary-paragraph font-semibold">
               {landingOffersData[0].description}
             </p>
           </div>
@@ -29,7 +29,7 @@ const LandingOffers = () => {
             <h3 className="mb-2 text-xl font-bold text-[#0F3B1C]">
               {landingOffersData[1].title}
             </h3>
-            <p className="mb-4 text-gray-500 dark:text-gray-400">
+            <p className="mb-4 text-primary-paragraph font-semibold">
               {landingOffersData[0].description}
             </p>
           </div>
@@ -39,7 +39,7 @@ const LandingOffers = () => {
             <h3 className="mb-2 text-xl font-bold text-[#0F3B1C]">
               {landingOffersData[2].title}
             </h3>
-            <p className="mb-4 text-gray-500 dark:text-gray-400">
+            <p className="mb-4 text-primary-paragraph font-semibold">
               {landingOffersData[0].description}
             </p>
           </div>

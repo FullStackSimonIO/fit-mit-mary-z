@@ -24,18 +24,11 @@ const PersonalTrainingDescription = () => {
             Ich erstelle dir einen persönlichen, <br />
             individuellen Trainingsplan
           </h1>
-          <p className="mb-6 text-primary-paragraph">
+          <p className="mb-6 font-semibold text-primary-paragraph">
             abgestimmt auf deine Ziele und deine Anamnese (Rückenprobleme,
             Schulterprobleme,..) auch gerne im Rahmen der medizinischen
             Trainingstherapie für die ich ausgebildet bin.
           </p>
-          <a
-            href="#"
-            className="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-          >
-            {" "}
-            Pre-order now{" "}
-          </a>
         </div>
       </div>
     </section>
