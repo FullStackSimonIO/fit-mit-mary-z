@@ -4,7 +4,7 @@ import React from "react";
 const PersonalTrainingDescription = () => {
   return (
     <section className="bg-primary-backgroundGreen px-4 py-8 antialiased md:py-16">
-      <h2 className="flex items-center justify-center text-3xl text-primary-paragraph font-bold pb-10">
+      <h2 className="flex items-center justify-center text-3xl text-primary-buttonGreen font-bold pb-10">
         Personal Training:
       </h2>
       <div className="mx-auto grid max-w-screen-xl rounded-lg bg-gray-50 p-4 md:p-8 lg:grid-cols-12 lg:gap-8 lg:p-16 xl:gap-16">
@@ -20,7 +20,7 @@ const PersonalTrainingDescription = () => {
           </a>
         </div>
         <div className="me-auto place-self-center lg:col-span-7">
-          <h1 className="mb-3 text-2xl font-bold leading-tight tracking-tight text-primary-paragraph placeholder:md:text-4xl">
+          <h1 className="mb-3 text-2xl font-bold leading-tight tracking-tight text-primary-buttonGreen placeholder:md:text-4xl">
             Ich erstelle dir einen persönlichen, <br />
             individuellen Trainingsplan
           </h1>

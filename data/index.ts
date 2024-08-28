@@ -61,11 +61,13 @@ export const description =
 export const infoData = [
   {
     id: 1,
-    title: "Yoga & Sporttherapie", // Überschrift des Abschnitts
+    title: "Herzlich Willkommen", // Überschrift des Abschnitts
     firstParagraph:
-      "Yoga und Sporttherapie bieten eine ganzheitliche Methode, Körper und Geist in Einklang zu bringen. Yoga, eine jahrtausendealte Praxis, vereint körperliche Übungen, Atemtechniken und Meditation, um Flexibilität, Kraft und innere Ruhe zu fördern. Sporttherapie ergänzt diese Ansätze durch gezielte Bewegungsprogramme, die auf individuelle gesundheitliche Bedürfnisse abgestimmt sind. Zusammen können Yoga und Sporttherapie helfen, Stress abzubauen, Verletzungen zu rehabilitieren und die allgemeine körperliche Fitness zu verbessern.",
+      "in meinem schönen, gemütlichen Raum für deine Kursstunde in Künzing. Eine Oase zum Auftanken und Aufatmen.",
     secondParagraph:
-      "Diese Kombination unterstützt nicht nur die physische Gesundheit, sondern fördert auch das mentale Wohlbefinden, indem sie Achtsamkeit und Entspannung in den Alltag integriert.",
+      "Du musst weder beweglich noch sportlich sein. Komme so wie du bist, denn genau so bist du richtig. In meinem Programm findest du alles rund ums Thema Ernährung, Yoga, Rückengymnastik und Personal Training.",
+    thirdParagraph:
+      "Bestimmt ist auch etwas für dich dabei. Ich freue mich, dich kennenzulernen. ",
     firstImgUrl: "/assets/startseite/1.JPG",
     firstImgAlt: "Buddha auf Fensterbrett",
     secondImgUrl: "/assets/startseite/2.JPG",

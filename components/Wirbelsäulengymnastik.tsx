@@ -6,8 +6,8 @@ import Image from "next/image"; // Importiere das Next.js Image Tag
 const Wirbelsäulengymnastik = () => {
   return (
     <div>
-      <section className="bg-primary-backgroundGreen w-full h-screen">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <section className="py-36 bg-primary-backgroundGreen w-full">
+        <div className=" px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="flex flex-col lg:flex-row items-center">
             {/* Image Section */}
             <div className="w-full lg:w-1/2 mb-8 lg:mb-0 flex justify-center">

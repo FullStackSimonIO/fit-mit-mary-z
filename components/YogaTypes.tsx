@@ -4,8 +4,8 @@ import { yogaTypes } from "@/data";
 
 const YogaTypes = () => {
   return (
-    <section className="bg-primary-backgroundGreen antialiased w-full h-screen flex items-center ">
-      <div className="max-w-screen-xl px-4 py-32 mx-auto lg:px-6 lg:py-24">
+    <section className="bg-primary-backgroundGreen antialiased w-full  ">
+      <div className="max-w-screen-xl px-4 py-36 mx-auto lg:px-6 lg:py-36">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-primary-buttonGreen sm:text-4xl">
             {yogaTypes.header.title}

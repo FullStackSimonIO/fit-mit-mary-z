@@ -1,5 +1,4 @@
-import { Hero } from "@/components/Hero";
-import { LayoutGrid } from "@/components/ui/layout-grid";
+import Hero from "@/components/NewHero";
 import Navbar from "@/components/Navbar";
 import React from "react";
 
