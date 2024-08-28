@@ -70,7 +70,7 @@ export const infoData = [
       "Bestimmt ist auch etwas für dich dabei. Ich freue mich, dich kennenzulernen. ",
     firstImgUrl: "/assets/startseite/1.JPG",
     firstImgAlt: "Buddha auf Fensterbrett",
-    secondImgUrl: "/assets/startseite/2.JPG",
+    secondImgUrl: "/assets/startseite/3.JPG",
     secondImgAlt: "Buddha Kerze anzünden",
   },
 ];
