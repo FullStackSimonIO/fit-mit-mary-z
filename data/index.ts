@@ -110,15 +110,27 @@ export const landingOffersData = [
 // Parallax Scroll Animation Images
 // Bild in "public/assets/startseite" ablegen und den Pfad hier eintragen
 export const parallaxImages = [
-  "/assets/startseite/1.JPG",
-  "/assets/startseite/2.JPG ",
-  "/assets/startseite/3.JPG",
-  "/assets/startseite/4.JPG",
-  "/assets/startseite/5.JPG",
-  "/assets/startseite/6.JPG",
-  "/assets/startseite/7.JPG",
-  "/assets/startseite/8.JPG",
-  "/assets/startseite/10.JPG",
+  "/assets/startseite/Chin_Mudra.jpeg",
+  "/assets/startseite/Raum_1.jpeg",
+  "/assets/startseite/Raum_2.jpeg",
+  "/assets/startseite/Raum_3.jpeg",
+  "/assets/startseite/Raum_4.jpeg",
+  "/assets/startseite/Raum_5.jpeg",
+  "/assets/startseite/Raum_6.JPG",
+  "/assets/startseite/Raum_7.JPG",
+  "/assets/startseite/Raum_8.JPG",
+  "/assets/startseite/Raum_9.JPG",
+  "/assets/startseite/Raum_10.JPG",
+  "/assets/startseite/Raum_11.JPG",
+  "/assets/startseite/Raum_12.JPG",
+  "/assets/startseite/Raum_13.JPG",
+  "/assets/startseite/Raum_14.JPG",
+  "/assets/startseite/Raum_15.JPG",
+  "/assets/startseite/Krieger_1.jpeg",
+  "/assets/startseite/Krieger_3.jpeg",
+  "/assets/startseite/Schneidersitz_2.jpeg",
+  "/assets/startseite/Schneidersitz.jpeg",
+  "/assets/startseite/Wirbelsäule.jpeg",
 ];
 
 // * Über-Mich Seite
