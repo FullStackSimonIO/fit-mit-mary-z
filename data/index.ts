@@ -68,9 +68,9 @@ export const infoData = [
       "Du musst weder beweglich noch sportlich sein. Komme so wie du bist, denn genau so bist du richtig. In meinem Programm findest du alles rund ums Thema Ernährung, Yoga, Rückengymnastik und Personal Training.",
     thirdParagraph:
       "Bestimmt ist auch etwas für dich dabei. Ich freue mich, dich kennenzulernen. ",
-    firstImgUrl: "/assets/startseite/1.JPG",
+    firstImgUrl: "/assets/startseite/Raum_7.JPG",
     firstImgAlt: "Buddha auf Fensterbrett",
-    secondImgUrl: "/assets/startseite/8.JPG",
+    secondImgUrl: "/assets/startseite/Raum_8.JPG",
     secondImgAlt: "Buddha Kerze anzünden",
   },
 ];
