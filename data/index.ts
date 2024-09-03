@@ -153,13 +153,13 @@ export const aboutFirst = {
     header: "Mein Yogastudio:",
     secondParagraph:
       "In meinem Studio biete ich unter anderem Yoga-Kurse, Personal-Training, Ernährungsberatung und Wirbelsäulengymnastik an. Mein Ziel ist es euch zu einem Leben mit mehr Spaß, Leichtigkeit und Lebensfreude sowie einem besseren Körpergefühl zu verhelfen.",
-    imgUrl: "/assets/ueber-mich/kissen.jpg",
+    imgUrl: "/assets/ueber-mich/kissen.jpeg",
   },
   thirdSection: {
     header: "Vorteile:",
     thirdParagraph:
       "Teilnahme an einem Yogakurs bietet zahlreiche Vorteile: Verbesserung der Flexibilität, Stärkung der Muskulatur und Förderung der inneren Ruhe. Reduzieren Sie Stress, steigern Sie Ihre Konzentration und fördern Sie das allgemeine Wohlbefinden. Geeignet für alle Altersgruppen, bringt Yoga Körper und Geist in Einklang.",
-    imgUrl: "/assets/maria/mariaYoga.jpg",
+    imgUrl: "/assets/maria/mariaYoga.jpeg",
   },
 };
 

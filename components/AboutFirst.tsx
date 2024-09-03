@@ -24,8 +24,8 @@ const AboutFirst = () => {
                 <Image
                   src={aboutFirst.firstSection.imgUrl}
                   alt="Image"
-                  width={500}
-                  height={500}
+                  width={300}
+                  height={300}
                   className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen"
                 />
               </div>
