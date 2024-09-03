@@ -147,7 +147,7 @@ export const aboutFirst = {
     header: "Wer bin ich?",
     firstParagraph:
       "Ich bin Mary, arbeite als Sporttherapeutin in eine Rehaklinik. Mein lang gehegter Traum ist es ein eigenes Yoga-Studio zu führen, in dem ich meine Kenntnisse und Erfahrungen mit euch teilen kann. Diesen Traum habe ich mir vor kurzem mit „Fit mit Mary“ erfüllt.",
-    imgUrl: "/assets/maria/maria.jpg",
+    imgUrl: "/assets/maria/maria.jpeg",
   },
   secondSection: {
     header: "Mein Yogastudio:",
