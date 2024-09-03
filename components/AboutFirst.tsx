@@ -6,8 +6,8 @@ import { aboutFirst } from "@/data";
 const AboutFirst = () => {
   return (
     <>
-      <section className="bg-primary-backgroundGreen antialiased  py-36 w-full ">
-        <div className="max-w-screen-xl px-4 py-32 mx-auto lg:px-6 lg:py-24">
+      <section className="bg-primary-backgroundGreen antialiased pt-20 lg:py-36 w-full">
+        <div className="max-w-screen-xl px-4 mx-auto lg:px-6">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-primary-buttonGreen sm:text-4xl">
               {aboutFirst.header.title}
@@ -20,17 +20,17 @@ const AboutFirst = () => {
           {/* About Section */}
           <div className="mt-12 space-y-16 sm:mt-16">
             <div className="flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
-              <div className="w-full lg:w-auto">
+              <div className="w-full lg:w-auto flex justify-center lg:justify-start">
                 <Image
                   src={aboutFirst.firstSection.imgUrl}
                   alt="Image"
                   width={300}
                   height={300}
-                  className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen"
+                  className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen max-w-sm"
                 />
               </div>
-              <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl">
-                <div className="space-y-3">
+              <div className="w-full lg:max-w-lg xl:max-w-2xl">
+                <div className="space-y-6 text-center lg:text-left">
                   <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl">
                     {aboutFirst.firstSection.header}
                   </h3>
@@ -44,10 +44,10 @@ const AboutFirst = () => {
         </div>
       </section>
 
-      <section className="w-full min-h-screen flex flex-col justify-center items-center px-4">
+      <section className="w-full flex flex-col justify-center items-center px-4 py-16 lg:py-32">
         <div className="flex flex-col-reverse lg:flex-row lg:items-center gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
-          <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl">
-            <div className="space-y-3 text-center lg:text-left">
+          <div className="w-full lg:max-w-lg xl:max-w-2xl">
+            <div className="space-y-6 text-center lg:text-left">
               <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl">
                 {aboutFirst.secondSection.header}
               </h3>
@@ -62,7 +62,7 @@ const AboutFirst = () => {
               alt="img"
               width={500}
               height={500}
-              className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen"
+              className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen max-w-sm lg:max-w-md"
             />
           </div>
         </div>
@@ -75,11 +75,11 @@ const AboutFirst = () => {
                 alt="Image"
                 width={500}
                 height={500}
-                className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen"
+                className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen max-w-sm lg:max-w-md"
               />
             </div>
-            <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl">
-              <div className="space-y-3 text-center lg:text-left">
+            <div className="w-full lg:max-w-lg xl:max-w-2xl">
+              <div className="space-y-6 text-center lg:text-left">
                 <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl">
                   {aboutFirst.thirdSection.header}
                 </h3>

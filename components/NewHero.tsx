@@ -4,9 +4,9 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
-    <section className="bg-primary-backgroundGreen pt-24 md:pt-36">
+    <section className="bg-primary-backgroundGreen pt-16 w-full lg:py-36">
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 items-center">
-        <div className="lg:col-span-7 mb-8 lg:mb-0">
+        <div className="flex flex-col items-center text-center lg:col-span-7 mb-8 lg:mb-0">
           <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-primary-buttonGreen">
             FIT-MIT-MARY
           </h1>
@@ -14,7 +14,8 @@ const Hero = () => {
             Das Yogastudio deines Vertrauens in Künzing in der Nähe von Passau
             und Deggendorf.
           </p>
-          <Button className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-primary-backgroundGreen bg-primary-buttonGreen border border-transparent rounded-lg transition transform hover:scale-105 hover:bg-opacity-90">
+
+          <Button className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-primary-backgroundGreen bg-primary-buttonGreen border border-transparent rounded-lg transition transform hover:scale-105 hover:bg-opacity-90">
             MEHR ERFAHREN
           </Button>
         </div>
