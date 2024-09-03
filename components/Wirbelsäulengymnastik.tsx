@@ -14,8 +14,8 @@ const Wirbelsäulengymnastik = () => {
                 <Image
                   src="/assets/wirbelsaeulengymnastik.jpeg"
                   alt="Wirbelsäulengymnastik"
-                  width={300}
-                  height={500}
+                  width={200}
+                  height={300}
                   className="rounded-lg object-cover w-full"
                   priority={true}
                 />
