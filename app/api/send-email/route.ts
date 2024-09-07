@@ -18,7 +18,7 @@ export async function POST(req: NextRequest) {
   const mailOptions = {
     from: email,
     to: "info@fit-mit-mary.de", // Replace with your email
-    subject: "Neue Anfrage über deine Website!",
+    subject: `Neue Anfrage über deine Website von: ${firstName} ${lastName}`,
     text: `
       First Name: ${firstName}
       Last Name: ${lastName}
