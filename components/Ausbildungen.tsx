@@ -2,13 +2,16 @@
 import React from "react";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import Image from "next/image";
+import { description } from "@/data";
 
 const content = [
   {
     title: "Ausbildung - Trainerin Wirbelsäulengymnastik",
     date: "Juni 2024",
+    description:
+      "Im Jahr 2024 habe ich meine Ausbildung zur Trainerin für Wirbelsäulengymnastik erfolgreich abgeschlossen. Diese spezialisierte Qualifikation hat mein Verständnis für die Gesundheit und Beweglichkeit der Wirbelsäule vertieft.",
     content: (
-      <div className="h-full w-full flex items-center justify-center text-white">
+      <div className="h-full w-full flex items-center justify-center">
         <Image
           src="/assets/ueber-mich/wirbelsaeulengymnastik.svg"
           width={300}
@@ -22,8 +25,10 @@ const content = [
   {
     title: "Fortbildung - Medizinische Trainingstherapie",
     date: "Mai 2023 - Januar 2024",
+    description:
+      "Kürzlich habe ich eine Fortbildung in der medizinischen Trainingstherapie absolviert, die mein Wissen im Bereich Rehabilitation und Prävention erweitert hat. ",
     content: (
-      <div className="h-full w-full  flex items-center justify-center text-white">
+      <div className="h-full w-full  flex items-center justify-center ">
         <Image
           src="/assets/ueber-mich/medizinische-trainingstherapie.svg"
           width={300}
@@ -37,6 +42,8 @@ const content = [
   {
     title: "Ausbildung - Yogalehrerin auf Bali",
     date: "Oktober 2023 - November 2023 (200 Stunden)",
+    description:
+      "Im Jahr 2023 habe ich meine Ausbildung zur Yogatrainerin auf Bali abgeschlossen, die sich über 200 intensive Stunden erstreckte. In der malerischen Umgebung von Balis tropischen Stränden und spirituellen Tempeln habe ich mich in den traditionellen Techniken des Yoga vertieft.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image

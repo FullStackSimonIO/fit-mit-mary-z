@@ -1,9 +1,17 @@
+"use client";
 import { wirbelsäulengymnastikData } from "@/data";
 import React from "react";
 import { Button } from "./ui/button";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const Wirbelsäulengymnastik = () => {
+  const router = useRouter();
+
+  const handleButtonClick = () => {
+    router.push("/kontakt");
+  };
+
   return (
     <div>
       <section className="py-16 sm:py-24 lg:py-36 bg-primary-backgroundGreen w-full">
@@ -32,7 +40,7 @@ const Wirbelsäulengymnastik = () => {
                 10 Trainingseinheiten je 60 Minuten - nur 150,00€
               </h3>
               <div className="flex justify-center lg:justify-start">
-                <Button variant="ghost">
+                <Button onClick={handleButtonClick} variant="ghost">
                   Jetzt Informieren
                   <svg
                     className="ml-1 w-6 h-6"

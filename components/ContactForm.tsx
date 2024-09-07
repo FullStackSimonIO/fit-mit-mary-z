@@ -166,8 +166,8 @@ const ContactForm = () => {
               </p>
               <p className="text-gray-500">
                 Maria Zillinger <br />
-                Carossastraße 1 <br />
-                94474 Vilshofen
+                0152 53407610 <br />
+                info@fit-mit-mary.de
               </p>
             </div>
             <div>

@@ -96,13 +96,13 @@ export const landingOffersData = [
     id: 2,
     title: "Yoga",
     description:
-      "Yoga vereint Körper und Geist, fördert Flexibilität, Kraft und innere Ruhe. Perfekt für Stressabbau und ganzheitliches Wohlbefinden.",
+      "Yoga verbessert das Körperbewusstsein, reduziert Stress, fördert Entspannung und stärkt die Verbindung zwischen Körper und Geist.",
   },
   {
     id: 3,
     title: "Personal Training",
     description:
-      "Verbessere deine Gesundheit mit einer spezialisierten medizinischen Trainingstherapie! Ich erstelle einen individuell abgestimmten Trainingsplan, ideal für Menschen mit gesundheitlichen Einschränkungen. Sicher, effektiv und auf deine Bedürfnisse zugeschnitten.",
+      "Personal Training ist gezieltes, individuelles Training zur Verbesserung der körperlichen Fitness und Förderung der Gesundheit.",
   },
   {
     id: 4,
@@ -202,7 +202,7 @@ export const yogaOffers = {
       imgUrl: "",
       imgAlt: "Yoga",
       description:
-        "Perfekt, wenn du noch nie Yoga praktiziert hast. Hier bringe ich dir die Grundlagen bei.",
+        "Ideal für Anfänger und Geübte. Wähle den für dich geeigneten Hatha Yoga Kurs aus.",
       price: "120,00",
       ad_1: "Verbesserte Flexibilität",
       ad_2: "Stressabbau und Entspannung",
@@ -218,11 +218,11 @@ export const yogaOffers = {
       description:
         "Für Fortgeschrittene, die ihre Praxis vertiefen möchten. Ideal für alle, die regelmäßig Yoga praktizieren.",
       price: "144,00",
-      ad_1: "Intensivierung der Praxis",
-      ad_2: "Erweiterung des Übungsrepertoires",
-      ad_3: "Vertiefung der Atemtechniken",
-      ad_4: "Verbesserte mentale Konzentration und Meditation",
-      ad_5: "Steigerung der Körperkraft",
+      ad_1: "Dehnt den ganzen Körper",
+      ad_2: "Fördert tiefe Entspannung",
+      ad_3: "Stärkt Bindegewebe und Gelenke",
+      ad_4: "Unterstützt die Flexibilität",
+      ad_5: "Beruhigt den Geist",
     },
     {
       id: 3,
@@ -230,12 +230,12 @@ export const yogaOffers = {
       imgUrl: "",
       imgAlt: "Yoga",
       description:
-        "Ideal für alle, die regelmäßig Yoga praktizieren und ihre Praxis intensivieren möchten.",
+        "Ideal für alle, die eine persönliche Einzelstunde im Yoga Studio oder auf Anfrage bei sich zuhause wünschen.",
       price: "85,00",
       ad_1: "Individuelle Betreuung",
       ad_2: "Anpassung der Praxis an die persönlichen Bedürfnisse",
       ad_3: "Vertiefung der Atemtechniken",
-      ad_4: "Förderung der Konzentration",
+      ad_4: "Stressabbau und Entspannung",
       ad_5: "Steigerung der Körperkraft",
     },
   ],
@@ -272,12 +272,12 @@ export const exampleCourses: Course[] = [
     time: "08:30 - 09:45 Uhr",
     endDate: "02.12.2024",
     price: "120,00€",
-    description: "8 Einheite | 75 Minuten pro Einheit",
+    description: "8 Einheiten | 75 Minuten pro Einheit",
     imgUrl: "/assets/kursuebersicht/kursuebersicht-figur-hochformat.JPG",
   },
   {
     id: "2",
-    title: "Fortgeschrittenes Hatha Yoga",
+    title: "Hatha Yoga für Anfänger",
     startDate: "15.10.2024",
     time: "18:00 - 19:15 Uhr",
     endDate: "03.12.2024",

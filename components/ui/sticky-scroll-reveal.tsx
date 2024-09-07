@@ -10,6 +10,7 @@ export const StickyScroll = ({
 }: {
   content: {
     title: string;
+    description: string;
     date: string;
     content?: React.ReactNode | any;
   }[];
@@ -19,7 +20,7 @@ export const StickyScroll = ({
   const ref = useRef<any>(null);
   const { scrollYProgress } = useScroll({
     // uncomment line 22 and comment line 23 if you DONT want the overflow container and want to have it change on the entire page scroll
-    // target: ref
+    target: ref,
     container: ref,
     offset: ["start start", "end start"],
   });
@@ -42,9 +43,6 @@ export const StickyScroll = ({
 
   return (
     <motion.div
-      animate={{
-        backgroundColor: "#EEFFF3",
-      }}
       className="h-[30rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md p-10"
       ref={ref}
     >
@@ -63,6 +61,17 @@ export const StickyScroll = ({
               >
                 {item.title}
               </motion.h2>
+              <motion.h3
+                initial={{
+                  opacity: 0,
+                }}
+                animate={{
+                  opacity: activeCard === index ? 1 : 0.3,
+                }}
+                className="text-2xl font-bold text-primary-buttonGreen"
+              >
+                {item.date}
+              </motion.h3>
               <motion.p
                 initial={{
                   opacity: 0,
@@ -70,9 +79,9 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-kg text-primary-paragraph max-w-sm mt-10"
+                className="text-kg text-primary-paragraph font-semibold max-w-sm mt-10"
               >
-                {item.date}
+                {item.description}
               </motion.p>
             </div>
           ))}
@@ -81,7 +90,7 @@ export const StickyScroll = ({
       </div>
       <div
         className={cn(
-          "hidden lg:block h-60 w-80 rounded-md sticky top-10 overflow-hidden",
+          "hidden lg:block h-60 w-80 rounded-md bg-white sticky top-10 overflow-hidden",
           contentClassName
         )}
       >
