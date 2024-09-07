@@ -2,7 +2,6 @@
 import React from "react";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import Image from "next/image";
-import { description } from "@/data";
 
 const content = [
   {
