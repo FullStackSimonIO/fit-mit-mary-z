@@ -1,5 +1,3 @@
-import React from "react";
-
 const Impress = () => {
   return (
     <section className="bg-primary-backgroundGreen py-36 px-4 lg:px-24">

@@ -1,6 +1,5 @@
 import { Sevillana } from "next/font/google";
 import Image from "next/image";
-import React from "react";
 import { infoData } from "@/data";
 
 const sevillana = Sevillana({

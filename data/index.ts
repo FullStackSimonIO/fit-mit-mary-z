@@ -27,6 +27,7 @@ Grundstruktur der Bildpfade: "/assets/seitenname/bildname.format" (z.B. "/assets
 
 */
 
+import { text } from "stream/consumers";
 import { Course } from "../types/types";
 
 //* Hier befinden sich allgemeine Daten, die auf der Website angezeigt werden. Diese Daten können hier geändert werden.
@@ -55,7 +56,9 @@ export const navItems = [
 export const name = "FIT-MIT-MARY";
 export const description =
   "Erleben Sie tiefenentspannende Yoga-Kurse in unserem professionellen Studio. Egal ob Anfänger oder Fortgeschrittener – finden Sie Balance und innere Ruhe durch individuelle Anleitungen. Besuchen Sie uns für Yoga in Künzing. Jetzt Platz reservieren!";
-
+export const typewriterYogakurse = [{ text: "Yogakurse" }];
+export const typewriterErnährungsberatung = [{ text: "Ernährungsberatung" }];
+export const typewriterPersonalTraining = [{ text: "Personal Training" }];
 // ! Info Section
 // Zweiter Bereich auf der Startseite
 export const infoData = [

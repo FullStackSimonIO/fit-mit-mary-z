@@ -1,6 +1,6 @@
 import Hero from "@/components/NewHero";
 import Navbar from "@/components/Navbar";
-import React from "react";
+
 
 import Info from "@/components/Info";
 import LandingOffers from "@/components/LandingOffers";

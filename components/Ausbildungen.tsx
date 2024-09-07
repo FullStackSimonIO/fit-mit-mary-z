@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import Image from "next/image";
 
@@ -127,6 +127,7 @@ const content = [
 export function Ausbildungen() {
   return (
     <div className="p-10">
+      <h1 className="flex items-center justify-center text-primary-buttonGreen font-bold text-3xl">Meine Ausbildungen:</h1>
       <StickyScroll content={content} />
     </div>
   );
