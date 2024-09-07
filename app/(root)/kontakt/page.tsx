@@ -16,7 +16,6 @@ const page = () => {
     <MapProvider>
       <Navbar />
       <ContactForm />
-      <Map />
       <Footer />
     </MapProvider>
   );
