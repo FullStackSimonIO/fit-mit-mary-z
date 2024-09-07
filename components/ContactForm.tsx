@@ -1,33 +1,48 @@
-// /app/contact/page.tsx
 "use client";
-
 import React, { useState } from "react";
-import { useTransition } from "react";
-import { sendEmail } from "../app/actions/sendEmail";
 
 const ContactForm = () => {
-  const [isPending, startTransition] = useTransition();
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [message, setMessage] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
     "idle"
   );
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("sending");
 
-    const formData = new FormData(e.currentTarget);
+    try {
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          firstName,
+          lastName,
+          email,
+          phoneNumber,
+          message,
+        }),
+      });
 
-    startTransition(async () => {
-      try {
-        const result = await sendEmail(formData);
-        if (result.success) {
-          setStatus("sent");
-        }
-      } catch (error) {
-        console.error(error);
+      if (response.ok) {
+        setStatus("sent");
+        setFirstName("");
+        setLastName("");
+        setEmail("");
+        setPhoneNumber("");
+        setMessage("");
+      } else {
         setStatus("error");
       }
-    });
+    } catch (error) {
+      setStatus("error");
+    }
   };
 
   return (
@@ -41,8 +56,8 @@ const ContactForm = () => {
         <div className="grid grid-cols-1 lg:gap-8 lg:grid-cols-3">
           <div className="col-span-2 mb-8 lg:mb-0">
             <form
-              onSubmit={handleSubmit}
               className="grid grid-cols-1 gap-8 mx-auto max-w-screen-md sm:grid-cols-2"
+              onSubmit={handleSubmit}
             >
               <div>
                 <label className="block mb-2 text-sm font-medium text-primary-buttonGreen">
@@ -50,7 +65,9 @@ const ContactForm = () => {
                 </label>
                 <input
                   type="text"
-                  name="firstName"
+                  id="first-name"
+                  value={firstName}
+                  onChange={(e) => setFirstName(e.target.value)}
                   className="block p-3 w-full placeholder:text-primary-backgroundGreen text-sm text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg border border-primary-paragraph shadow-sm focus:ring-primary-paragraph focus:border-primary-paragraph"
                   placeholder="Sabine"
                   required
@@ -62,7 +79,9 @@ const ContactForm = () => {
                 </label>
                 <input
                   type="text"
-                  name="lastName"
+                  id="last-name"
+                  value={lastName}
+                  onChange={(e) => setLastName(e.target.value)}
                   className="block p-3 w-full text-sm placeholder:text-primary-backgroundGreen text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg border border-gray-300 shadow-sm focus:ring-primary-paragraph focus:border-primary-paragraph"
                   placeholder="Mustermann"
                   required
@@ -74,8 +93,10 @@ const ContactForm = () => {
                 </label>
                 <input
                   type="email"
-                  name="email"
-                  className="shadow-sm bg-primary-buttonGreen placeholder:text-primary-backgroundGreen border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-paragraph focus:border-primary-paragraph block w-full p-2.5"
+                  id="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="block p-3 w-full text-sm placeholder:text-primary-backgroundGreen text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg border border-gray-300 shadow-sm focus:ring-primary-paragraph focus:border-primary-paragraph"
                   placeholder="sabine@mustermann.de"
                   required
                 />
@@ -85,9 +106,11 @@ const ContactForm = () => {
                   Telefonnummer:
                 </label>
                 <input
-                  type="text"
-                  name="phoneNumber"
-                  className="block p-3 w-full text-sm text-gray-900 placeholder:text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg border border-gray-300 shadow-sm focus:ring-primary-paragraph focus:border-primary-paragraph"
+                  type="number"
+                  id="phone-number"
+                  value={phoneNumber}
+                  onChange={(e) => setPhoneNumber(e.target.value)}
+                  className="block p-3 w-full text-sm placeholder:text-primary-backgroundGreen text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg border border-gray-300 shadow-sm focus:ring-primary-paragraph focus:border-primary-paragraph"
                   placeholder="+151 345 6789"
                   required
                 />
@@ -97,8 +120,10 @@ const ContactForm = () => {
                   Deine Nachricht:
                 </label>
                 <textarea
-                  name="message"
+                  id="message"
                   rows={6}
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   className="block placeholder:text-primary-backgroundGreen p-2.5 w-full text-sm text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg shadow-sm border border-gray-300 focus:ring-primary-paragraph focus:border-primary-paragraph"
                   placeholder="Nachricht"
                 ></textarea>
@@ -106,7 +131,7 @@ const ContactForm = () => {
               <button
                 type="submit"
                 className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-buttonGreen sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-paragraph"
-                disabled={isPending || status === "sending"}
+                disabled={status === "sending"}
               >
                 Nachricht senden
               </button>
@@ -121,7 +146,53 @@ const ContactForm = () => {
             </form>
           </div>
           <div className="grid grid-cols-1 col-span-1 gap-8 text-center sm:grid-cols-2 lg:grid-cols-1">
-            {/* Kontaktinformationen ... */}
+            <div>
+              <div className="flex justify-center items-center mx-auto mb-4 w-10 h-10 bg-[#2D4542] rounded-lg lg:h-16 lg:w-16">
+                <svg
+                  className="w-5 h-5 text-gray-600 lg:w-8 lg:h-8"
+                  fill="#EEFFF3"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+              <p className="mb-2 text-xl font-bold text-[#2D4542]">
+                Kontaktinformationen:
+              </p>
+              <p className="text-gray-500">
+                Maria Zillinger <br />
+                Carossastraße 1 <br />
+                94474 Vilshofen
+              </p>
+            </div>
+            <div>
+              <div className="flex justify-center items-center mx-auto mb-4 w-10 h-10 bg-primary-buttonGreen rounded-lg lg:h-16 lg:w-16">
+                <svg
+                  className="w-5 h-5 text-gray-600 lg:w-8 lg:h-8"
+                  fill="#EEFFF3"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+              <p className="mb-2 text-xl font-bold text-gray-900">Addresse:</p>
+              <p className="text-gray-500">
+                Osterhofener Staße 9<br />
+                94550 Künzing <br />
+                Deutschland
+                <br />
+              </p>
+            </div>
           </div>
         </div>
       </div>
