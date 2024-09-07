@@ -1,5 +1,5 @@
 import GoogleAnalytics from "@/components/GoogleAnalytics";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <GoogleAnalytics />
-      <SpeedInsights />
+
       <body className={`${lato.className} bg-primary-backgroundGreen`}>
         {children}
         <Analytics />
