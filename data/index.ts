@@ -58,6 +58,9 @@ export const description =
 export const typewriterYogakurse = [{ text: "Yogakurse" }];
 export const typewriterErnährungsberatung = [{ text: "Ernährungsberatung" }];
 export const typewriterPersonalTraining = [{ text: "Personal Training" }];
+export const typewriterWirbelsäulengymnastik = [
+  { text: "Wirbelsäulengymnastik" },
+];
 // ! Info Section
 // Zweiter Bereich auf der Startseite
 export const infoData = [

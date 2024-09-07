@@ -4,6 +4,7 @@ import { TypewriterEffect } from "./ui/typewriter-effect";
 import {
   typewriterErnährungsberatung,
   typewriterPersonalTraining,
+  typewriterWirbelsäulengymnastik,
   typewriterYogakurse,
 } from "@/data";
 
@@ -28,6 +29,9 @@ const Hero = () => {
             </li>
             <li className="mb-2 font-semibold text-primary-paragraph ">
               <TypewriterEffect words={typewriterPersonalTraining} />
+            </li>
+            <li className="mb-2 font-semibold text-primary-paragraph ">
+              <TypewriterEffect words={typewriterWirbelsäulengymnastik} />
             </li>
           </ul>
           <Button className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-primary-backgroundGreen bg-primary-buttonGreen border border-transparent rounded-lg transition transform hover:scale-105 hover:bg-opacity-90">
