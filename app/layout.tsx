@@ -9,6 +9,16 @@ const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 export const metadata: Metadata = {
   title: metaData.title,
   description: metaData.description,
+  openGraph: {
+    images: [
+      {
+        url: metaData.image,
+        width: 1200,
+        height: 630,
+        alt: metaData.title,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
