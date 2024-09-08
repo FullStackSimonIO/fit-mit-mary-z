@@ -216,7 +216,7 @@ export const yogaOffers = {
       imgUrl: "",
       imgAlt: "Yoga",
       description:
-        "Für Fortgeschrittene, die ihre Praxis vertiefen möchten. Ideal für alle, die regelmäßig Yoga praktizieren.",
+        "Ideal für alle, die nach einer ruhigen Praxis mit langen Dehnungen suchen (Faszienyoga).",
       price: "144,00",
       ad_1: "Dehnt den ganzen Körper",
       ad_2: "Fördert tiefe Entspannung",
