@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import CourseList from "@/components/CourseList";
 import React from "react";
 import { Metadata } from "next";
+import Navigation from "@/components/experimental/Navigation";
 
 export const metadata: Metadata = {
   title: "Fit-Mit-Mary | Kurse & Termine",
@@ -11,7 +12,6 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <div>
-      <Navbar />
       <CourseList />
       <Footer />
     </div>

@@ -4,6 +4,7 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 import Image from "next/image";
+import Navigation from "@/components/experimental/Navigation";
 
 const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -39,6 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${lato.className} bg-primary-backgroundGreen`}>
+        <Navigation />
         {children}
         <Analytics />
 

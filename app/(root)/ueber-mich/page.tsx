@@ -1,6 +1,6 @@
 import AboutFirst from "@/components/AboutFirst";
 import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+import Navigation from "@/components/experimental/Navigation";
 import React from "react";
 import { Ausbildungen } from "@/components/Ausbildungen";
 import { Metadata } from "next";
@@ -12,7 +12,6 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <div>
-      <Navbar />
       <AboutFirst />
       <Ausbildungen />
       {/*<AboutSecond /> */}

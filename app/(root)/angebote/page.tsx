@@ -16,7 +16,6 @@ const page = () => {
   //localhost:3000/_next/image?url=%2Fassets%2Fwirbelsaeulengymnastik.jpeg&w=256&q=75
   http: return (
     <div>
-      <Navbar />
       <YogaTypes />
       <YogaOffers />
       <Wirbelsäulengymnastik />

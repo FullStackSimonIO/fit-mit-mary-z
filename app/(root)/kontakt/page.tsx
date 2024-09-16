@@ -1,4 +1,5 @@
 import ContactForm from "@/components/ContactForm";
+import Navigation from "@/components/experimental/Navigation";
 import Footer from "@/components/Footer";
 import Map from "@/components/Map";
 import MapWithPlaces from "@/components/Map";
@@ -14,7 +15,6 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <MapProvider>
-      <Navbar />
       <ContactForm />
       <Footer />
     </MapProvider>
