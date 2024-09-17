@@ -30,7 +30,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
           className="w-full h-full object-cover rounded-t-lg"
         />
       </div>
-      <div className="">
+      <div className="p-4">
         <h3 className="flex items-center justify-center text-xl text-primary-buttonGreen py-4">
           {course.title}
         </h3>

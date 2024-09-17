@@ -19,6 +19,10 @@ const links = [
     path: "/angebote",
   },
   {
+    name: "kursübersicht",
+    path: "/kursuebersicht",
+  },
+  {
     name: "kontakt",
     path: "/kontakt",
   },
