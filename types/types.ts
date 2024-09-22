@@ -1,14 +1,3 @@
-export type Course = {
-  id: string;
-  title: string;
-  startDate: string; // YYYY-MM-DD
-  time: string; // HH:MM
-  endDate: string;
-  price: string;
-  description: string;
-  imgUrl: string;
-};
-
 export type User = {
   id: string;
   firstName: string;
@@ -17,3 +6,16 @@ export type User = {
   country: string;
   currentCount: Number;
 };
+
+export interface Course {
+  id: string;
+  title: string;
+  description: string;
+  startDate: string;
+  endDate: string;
+  time: string;
+  price: string;
+  imgUrl: string;
+}
+
+// You can add more types here as needed for your application

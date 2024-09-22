@@ -11,8 +11,7 @@ const AboutSecond = () => {
             Meine Angebote
           </h2>
           <p className="mt-4 text-base font-semibold text-primary-paragraph sm:text-xl ">
-            Entdecken Sie eine Auswahl an Kursen, Therapien und
-            Beratungsangeboten.
+            Entdecken eine Auswahl an Kursen, Therapien und Beratungsangeboten.
           </p>
         </div>
       </div>

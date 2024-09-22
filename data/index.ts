@@ -90,7 +90,7 @@ export const landingOffersData = [
     id: 1,
     title: "Ernährungsberatung",
     description:
-      "Ernährungsberatung optimiert die Gesundheit durch maßgeschneiderte Ernährungspläne, fördert gesunde Gewohnheiten und unterstützt Gewichtsmanagement sowie Wohlbefinden.",
+      "Ernährungsberatung optimiert die Gesundheit durch maßgeschneiderte Ernährungspläne, fördert die Gesundheit & das Wohlbefinden.",
   },
   {
     id: 2,

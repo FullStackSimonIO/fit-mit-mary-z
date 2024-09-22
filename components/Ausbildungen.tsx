@@ -17,6 +17,7 @@ const content = [
           height={300}
           alt=""
           className="h-full w-full object-cover bg-transparent"
+          unoptimized
         />
       </div>
     ),
@@ -34,6 +35,7 @@ const content = [
           height={300}
           className="h-full w-full object-cover"
           alt="linear board demo"
+          unoptimized
         />
       </div>
     ),
@@ -51,6 +53,7 @@ const content = [
           height={300}
           className="h-full w-full object-cover"
           alt="linear board demo"
+          unoptimized
         />
       </div>
     ),
@@ -67,6 +70,7 @@ const content = [
           height={300}
           className="h-full w-full object-cover"
           alt="linear board demo"
+          unoptimized
         />
       </div>
     ),
@@ -83,6 +87,7 @@ const content = [
           height={300}
           className="h-full w-full object-cover"
           alt="linear board demo"
+          unoptimized
         />
       </div>
     ),
@@ -99,6 +104,7 @@ const content = [
           height={300}
           className="h-full w-full object-cover"
           alt="linear board demo"
+          unoptimized
         />
       </div>
     ),
@@ -115,6 +121,7 @@ const content = [
           height={300}
           className="h-full w-full object-cover"
           alt="linear board demo"
+          unoptimized
         />
       </div>
     ),

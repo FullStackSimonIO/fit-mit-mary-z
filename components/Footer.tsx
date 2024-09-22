@@ -19,6 +19,7 @@ const Footer = () => {
                 alt="Logo"
                 width={40}
                 height={48}
+                unoptimized
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
                 FIT-MIT-MARIA

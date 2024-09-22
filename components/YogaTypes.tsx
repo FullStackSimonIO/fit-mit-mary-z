@@ -28,6 +28,7 @@ const YogaTypes = () => {
                 width={500}
                 height={500}
                 className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen"
+                unoptimized
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent rounded-lg opacity-70"></div>
             </div>

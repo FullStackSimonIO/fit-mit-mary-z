@@ -18,6 +18,7 @@ const Navigation = () => {
               alt="fit mit mary logo"
               width={32}
               height={32}
+              unoptimized
             />
             <h1 className="text-4xl font-semibold text-primary-buttonGreen pl-4">
               Fit-Mit-Mary

@@ -40,6 +40,7 @@ const Info = () => {
             alt={infoData[0].firstImgAlt}
             width={100}
             height={100}
+            unoptimized
           />
           <Image
             className="mt-2 sm:mt-4 w-full h-auto max-w-xs sm:max-w-sm lg:mt-10 rounded-lg border-4 border-primary-buttonGreen"
@@ -47,6 +48,7 @@ const Info = () => {
             alt={infoData[0].secondImgAlt}
             width={100}
             height={100}
+            unoptimized
           />
         </div>
       </div>

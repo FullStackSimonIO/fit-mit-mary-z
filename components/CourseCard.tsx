@@ -28,6 +28,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
           layout="fill"
           objectFit="cover"
           className="w-full h-full object-cover rounded-t-lg"
+          unoptimized
         />
       </div>
       <div className="p-4">

@@ -12,6 +12,7 @@ const ErnährungsberatungDescription = () => {
             alt="Ernährungsberatung Bild"
             width={500}
             height={500}
+            unoptimized
           />
         </div>
 

@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 
-import CourseList from "@/components/CourseList";
+import CourseList from "@/components/experimental/CourseList";
 
 import React from "react";
 

@@ -57,6 +57,7 @@ export const ParallaxScrollSecond = ({
                 height="400"
                 width="400"
                 alt="thumbnail"
+                unoptimized
               />
             </motion.div>
           ))}
@@ -70,6 +71,7 @@ export const ParallaxScrollSecond = ({
                 height="400"
                 width="400"
                 alt="thumbnail"
+                unoptimized
               />
             </motion.div>
           ))}
@@ -90,6 +92,7 @@ export const ParallaxScrollSecond = ({
                 height="400"
                 width="400"
                 alt="thumbnail"
+                unoptimized
               />
             </motion.div>
           ))}

@@ -26,6 +26,7 @@ const Wirbelsäulengymnastik = () => {
                   height={300}
                   className="rounded-lg object-cover w-full"
                   priority={true}
+                  unoptimized
                 />
               </div>
             </div>

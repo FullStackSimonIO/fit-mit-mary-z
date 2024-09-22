@@ -45,6 +45,7 @@ const Hero = () => {
             width={400}
             height={400}
             className="w-72 h-72 md:w-96 md:h-96"
+            unoptimized
           />
         </div>
       </div>

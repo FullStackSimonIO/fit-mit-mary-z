@@ -66,6 +66,7 @@ export default function RootLayout({
             style={{ display: "none" }}
             src={`https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1`}
             alt="pixel"
+            unoptimized
           />
         </noscript>
       </body>

@@ -45,6 +45,7 @@ const Navbar = () => {
             alt="Logo"
             width={40}
             height={40}
+            unoptimized
           />
           <span className="self-center text-[#2D4542] text-sm lg:text-2xl font-semibold whitespace-nowrap">
             FIT-MIT-MARY

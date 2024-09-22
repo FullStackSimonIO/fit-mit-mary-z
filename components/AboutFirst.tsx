@@ -27,6 +27,7 @@ const AboutFirst = () => {
                   width={300}
                   height={300}
                   className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen max-w-sm"
+                  unoptimized
                 />
               </div>
               <div className="w-full lg:max-w-lg xl:max-w-2xl">
@@ -63,6 +64,7 @@ const AboutFirst = () => {
               width={500}
               height={500}
               className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen max-w-sm lg:max-w-md"
+              unoptimized
             />
           </div>
         </div>
@@ -76,6 +78,7 @@ const AboutFirst = () => {
                 width={500}
                 height={500}
                 className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen max-w-sm lg:max-w-md"
+                unoptimized
               />
             </div>
             <div className="w-full lg:max-w-lg xl:max-w-2xl">
