@@ -40,7 +40,7 @@ const Wirbelsäulengymnastik = () => {
                 10 Trainingseinheiten je 60 Minuten - nur 150,00€
               </h3>
               <div className="flex justify-center lg:justify-start">
-                <Button onClick={handleButtonClick} variant="ghost">
+                <Button onClick={handleButtonClick} variant="outline">
                   Jetzt Informieren
                   <svg
                     className="ml-1 w-6 h-6"
