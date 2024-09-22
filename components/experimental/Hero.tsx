@@ -38,7 +38,7 @@ export default function YogaHero() {
             </ul>
             <div className="relative h-[300px] md:hidden mb-6">
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                src="/assets/maria/maria-hero.png"
                 alt="Peaceful yoga practitioner in a serene natural setting"
                 layout="fill"
                 objectFit="cover"
