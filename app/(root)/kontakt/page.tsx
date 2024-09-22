@@ -14,10 +14,10 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <MapProvider>
+    <>
       <ContactForm />
       <Footer />
-    </MapProvider>
+    </>
   );
 };
 

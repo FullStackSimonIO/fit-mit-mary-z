@@ -4,6 +4,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import Navbar from "./Navbar";
 import MobileNav from "./MobileNav";
+import CTAButton from "../CTA";
 
 const Navigation = () => {
   return (
@@ -27,7 +28,7 @@ const Navigation = () => {
         <div className="hidden xl:flex items-center gap-8">
           <Navbar />
           <Link href="/contact">
-            <Button>Termin buchen</Button>
+            <CTAButton />
           </Link>
         </div>
 
