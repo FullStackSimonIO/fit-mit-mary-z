@@ -11,7 +11,7 @@ const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 export const metadata: Metadata = {
   title: "Fit-Mit-Mary | Yoga & Fitness in Künzing bei Deggendorf",
   description:
-    "Erlebe tiefenentspannende Yoga-Kurse in meinem professionellen Studio. Egal ob Anfänger oder Fortgeschrittener. Künzing bei Deggendorf.",
+    "Tiefenentspannende Yoga Kurse in meinem professionellen Yogastudio in Künzing zwischen Vilshofen und Deggendorf. Egal ob Anfänger oder Fortgeschrittener, bei mir findest du den passenden Kurs.",
   metadataBase: new URL("https://fit-mit-mary.de"),
   openGraph: {
     type: "website",
@@ -45,7 +45,7 @@ export default function RootLayout({
         <Analytics />
 
         {/* Facebook Pixel */}
-        <Script id="facebook-pixel" strategy="afterInteractive">
+        {/* <Script id="facebook-pixel" strategy="afterInteractive">
           {`
           !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -57,8 +57,8 @@ export default function RootLayout({
           'https://connect.facebook.net/en_US/fbevents.js');
           fbq('init', 'YOUR_PIXEL_ID');
           fbq('track', 'PageView');
-        `}
-        </Script>
+        `} 
+        </Script> 
         <noscript>
           <Image
             height="1"
@@ -68,7 +68,7 @@ export default function RootLayout({
             alt="pixel"
             unoptimized
           />
-        </noscript>
+        </noscript>*/}
       </body>
     </html>
   );
