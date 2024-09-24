@@ -61,7 +61,6 @@ const AboutFirst = () => {
                           width={500}
                           height={500}
                           className="object-cover w-full h-48 lg:h-full"
-                          unoptimized
                         />
                       </div>
                       <div className="w-full lg:w-1/2 p-6 lg:p-8">
