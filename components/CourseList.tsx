@@ -1,6 +1,6 @@
 import React from "react";
 import CourseCard from "./CourseCard";
-import { exampleCourses } from "../data";
+import { courses } from "../data";
 
 const CourseList: React.FC = () => {
   return (
@@ -10,8 +10,8 @@ const CourseList: React.FC = () => {
           Anstehende Kurstermine
         </h2>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {exampleCourses.map((course) => (
-            <CourseCard key={course.id} course={course} />
+          {courses.map((course, index) => (
+            <CourseCard key={index} course={course} />
           ))}
         </div>
       </div>

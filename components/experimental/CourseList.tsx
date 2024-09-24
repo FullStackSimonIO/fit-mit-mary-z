@@ -2,9 +2,9 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import CourseCard from "./CourseCard";
-import { exampleCourses } from "../../data";
+import CourseCard from "../experimental/CourseCard";
 import { Button } from "@/components/ui/button";
+import { courses } from "@/data";
 
 const CourseList: React.FC = () => {
   const containerVariants = {
@@ -43,8 +43,8 @@ const CourseList: React.FC = () => {
           initial="hidden"
           animate="visible"
         >
-          {exampleCourses.map((course) => (
-            <CourseCard key={course.id} course={course} />
+          {courses.map((course, index) => (
+            <CourseCard key={index} course={course} />
           ))}
         </motion.div>
         <motion.div

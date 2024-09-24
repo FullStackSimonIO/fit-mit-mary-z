@@ -8,7 +8,6 @@ export type User = {
 };
 
 export interface Course {
-  id: string;
   title: string;
   description: string;
   startDate: string;

@@ -152,7 +152,7 @@ export const aboutFirst = {
     header: "Wer bin ich?",
     firstParagraph:
       "Ich bin Mary, arbeite als Sporttherapeutin in eine Rehaklinik. Mein lang gehegter Traum ist es ein eigenes Yoga-Studio zu führen, in dem ich meine Kenntnisse und Erfahrungen mit euch teilen kann. Diesen Traum habe ich mir vor kurzem mit „Fit mit Mary“ erfüllt.",
-    imgUrl: "/assets/maria/maria.jpeg",
+    imgUrl: "/assets/maria/maria-hero.png",
   },
   secondSection: {
     header: "Mein Yogastudio:",
@@ -264,9 +264,65 @@ export const wirbelsäulengymnastikData = {
     "Bewegungstherapie, die speziell darauf abzielt, die Muskulatur der Wirbelsäule zu stärken, die Beweglichkeit zu verbessern und Haltungsschäden vorzubeugen und zu korrigieren. Durch gezielte Übungen werden Rücken- u. Bauchmuskeln trainiert, um die Wirbelsäule zu stabilisieren und Schmerzen vorzubeugen.",
 };
 
+export const courses = [
+  {
+    title: "Auszeit für Dich - Hatha Yoga für Anfänger",
+    startDate: "2024-10-14T00:00:00Z", // Ensure this is a valid date string
+    endDate: "2024-12-02T00:00:00Z", // Ensure this is a valid date string
+    time: "08:30 - 09:45 Uhr",
+    price: "120,00€",
+    description: "8 Einheiten | 75 Minuten pro Einheit",
+    imgUrl: "/assets/kursuebersicht/kursuebersicht-figur-hochformat.JPG",
+  },
+  {
+    title: "Hatha Yoga für Anfänger",
+    startDate: "2024-10-15T00:00:00Z", // Ensure this is a valid date string
+    endDate: "2024-12-02T00:00:00Z", // Ensure this is a valid date string
+    time: "18:00 - 19:15 Uhr",
+    price: "120,00€",
+    description: "8 Einheiten | 75 Minuten pro Einheit",
+    imgUrl: "/assets/kursuebersicht/kursuebersicht-yogaraum-hochformat.JPG",
+  },
+  {
+    title: "Hatha Yoga für Geübte",
+    startDate: "2024-10-16T00:00:00Z", // Ensure this is a valid date string
+    endDate: "2024-12-04T00:00:00Z", // Ensure this is a valid date string
+    time: "18:00 - 19:15 Uhr",
+    price: "120,00€",
+    description: "8 Einheiten | 75 Minuten pro Einheit",
+    imgUrl: "/assets/kursuebersicht/kursuebersicht-hatha-yoga-hochformat-2.JPG",
+  },
+  {
+    title: "Fit am Morgen mit Wirbelsäulengymnastik",
+    startDate: "2024-10-14T00:00:00Z", // Ensure this is a valid date string
+    endDate: "2024-12-09T00:00:00Z", // Ensure this is a valid date string
+    time: "10:00 - 11:00 Uhr",
+    price: "150,00€",
+    description: "10 Einheiten | 60 Minuten pro Einheit",
+    imgUrl: "/assets/kursuebersicht/wirbelsaeulengymnastik.JPG",
+  },
+  {
+    title: "Yin Yoga",
+    startDate: "2024-10-15T00:00:00Z", // Ensure this is a valid date string
+    endDate: "2024-12-03T00:00:00Z", // Ensure this is a valid date string
+    time: "19:30 - 21:00 Uhr",
+    price: "144,00€",
+    description: "8 Einheiten | 90 Minuten pro Einheit",
+    imgUrl: "/assets/kursuebersicht/yin.JPG",
+  },
+  {
+    title: "Wirbelsäulengymnastik",
+    startDate: "2024-10-16T00:00:00Z", // Ensure this is a valid date string
+    endDate: "2024-12-11T00:00:00Z", // Ensure this is a valid date string
+    time: "19:30 - 20:30 Uhr",
+    price: "150,00€",
+    description: "10 Einheiten | 60 Minuten pro Einheit",
+    imgUrl: "/assets/kursuebersicht/wirbelsaeulengymnastik2.JPG",
+  },
+];
+
 export const exampleCourses: Course[] = [
   {
-    id: "1",
     title: "Auszeit für Dich - Hatha Yoga für Anfänger",
     startDate: "10.14.2024",
     time: "08:30 - 09:45 Uhr",
@@ -276,7 +332,6 @@ export const exampleCourses: Course[] = [
     imgUrl: "/assets/kursuebersicht/kursuebersicht-figur-hochformat.JPG",
   },
   {
-    id: "2",
     title: "Hatha Yoga für Anfänger",
     startDate: "10.15.2024",
     time: "18:00 - 19:15 Uhr",
@@ -286,7 +341,6 @@ export const exampleCourses: Course[] = [
     imgUrl: "/assets/kursuebersicht/kursuebersicht-yogaraum-hochformat.JPG",
   },
   {
-    id: "3",
     title: "Hatha Yoga für Geübte",
     startDate: "10.16.2024",
     time: "18:00 - 19:15 Uhr",
@@ -296,7 +350,6 @@ export const exampleCourses: Course[] = [
     imgUrl: "/assets/kursuebersicht/kursuebersicht-hatha-yoga-hochformat-2.JPG",
   },
   {
-    id: "4",
     title: "Fit am Morgen mit Wirbelsäulengymnastik",
     startDate: "10.14.2024",
     time: "10:00 - 11:00 Uhr",
@@ -306,7 +359,6 @@ export const exampleCourses: Course[] = [
     imgUrl: "/assets/kursuebersicht/wirbelsaeulengymnastik.JPG",
   },
   {
-    id: "5",
     title: "Yin Yoga",
     startDate: "10.15.2024",
     time: "19:30 - 21:00 Uhr",
@@ -316,7 +368,6 @@ export const exampleCourses: Course[] = [
     imgUrl: "/assets/kursuebersicht/yin.JPG",
   },
   {
-    id: "6",
     title: "Wirbelsäulengymnastik",
     startDate: "10.16.2024",
     time: "19:30 - 20:30 Uhr",

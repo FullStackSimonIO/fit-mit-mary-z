@@ -10,14 +10,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+
 import { Badge } from "@/components/ui/badge";
-import {
-  CalendarIcon,
-  ClockIcon,
-  CreditCardIcon,
-  UserIcon,
-} from "lucide-react";
+import { CalendarIcon, ClockIcon, CreditCardIcon } from "lucide-react";
 import { Course } from "../../types/types";
 
 interface CourseCardProps {
@@ -25,13 +20,16 @@ interface CourseCardProps {
 }
 
 const CourseCard: React.FC<CourseCardProps> = ({ course }) => {
-  const formatDate = (dateStr: string) => {
-    const date = new Date(dateStr);
-    return date.toLocaleDateString("de-DE", {
+  const formatDate = (dateString: string): string => {
+    const date = new Date(dateString);
+    if (isNaN(date.getTime())) {
+      return "Invalid Date";
+    }
+    return new Intl.DateTimeFormat("de-DE", {
       year: "numeric",
       month: "long",
       day: "numeric",
-    });
+    }).format(date);
   };
 
   const isNewCourse = () => {
