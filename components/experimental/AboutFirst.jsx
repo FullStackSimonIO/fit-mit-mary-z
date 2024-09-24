@@ -58,8 +58,8 @@ const AboutFirst = () => {
                         <Image
                           src={section.imgUrl}
                           alt={`Image ${index + 1}`}
-                          width={300}
-                          height={300}
+                          width={500}
+                          height={500}
                           className="object-cover w-full h-48 lg:h-full"
                           unoptimized
                         />
