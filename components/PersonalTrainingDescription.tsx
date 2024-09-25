@@ -16,6 +16,7 @@ const PersonalTrainingDescription = () => {
               alt="peripherals"
               width={500}
               height={500}
+              unoptimized
             />
           </a>
         </div>

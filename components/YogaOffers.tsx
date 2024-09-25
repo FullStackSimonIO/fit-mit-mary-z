@@ -70,7 +70,7 @@ const YogaOffers = () => {
                     variant="ghost"
                     className="w-full py-3 text-lg font-bold"
                   >
-                    Termin sichern
+                    <a href="/kontakt">Termin sichern</a>
                   </Button>
                 </div>
               </div>

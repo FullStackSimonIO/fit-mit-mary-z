@@ -1,17 +1,17 @@
-import AboutFirst from "@/components/AboutFirst";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-import AboutSecond from "@/components/AboutSecond";
-import { Ausbildungen } from "@/components/Ausbildungen";
+import { Ausbildungen } from "@/components/about/Ausbildungen";
+import { Metadata } from "next";
+import AboutFirst from "@/components/about/AboutFirst";
+
+export const metadata: Metadata = {
+  title: "Fit-Mit-Mary | Über mich",
+};
 
 const page = () => {
   return (
     <div>
-      <Navbar />
       <AboutFirst />
       <Ausbildungen />
-      <AboutSecond />
-      <Footer />
+      {/*<AboutSecond /> */}
     </div>
   );
 };

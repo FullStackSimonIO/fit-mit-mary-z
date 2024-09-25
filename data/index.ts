@@ -27,7 +27,6 @@ Grundstruktur der Bildpfade: "/assets/seitenname/bildname.format" (z.B. "/assets
 
 */
 
-import { text } from "stream/consumers";
 import { Course } from "../types/types";
 
 //* Hier befinden sich allgemeine Daten, die auf der Website angezeigt werden. Diese Daten können hier geändert werden.
@@ -59,6 +58,9 @@ export const description =
 export const typewriterYogakurse = [{ text: "Yogakurse" }];
 export const typewriterErnährungsberatung = [{ text: "Ernährungsberatung" }];
 export const typewriterPersonalTraining = [{ text: "Personal Training" }];
+export const typewriterWirbelsäulengymnastik = [
+  { text: "Wirbelsäulengymnastik" },
+];
 // ! Info Section
 // Zweiter Bereich auf der Startseite
 export const infoData = [
@@ -71,9 +73,9 @@ export const infoData = [
       "Du musst weder beweglich noch sportlich sein. Komme so wie du bist, denn genau so bist du richtig. In meinem Programm findest du alles rund ums Thema Ernährung, Yoga, Rückengymnastik und Personal Training.",
     thirdParagraph:
       "Bestimmt ist auch etwas für dich dabei. Ich freue mich, dich kennenzulernen. ",
-    firstImgUrl: "/assets/startseite/1.JPG",
+    firstImgUrl: "/assets/startseite/Raum_7.JPG",
     firstImgAlt: "Buddha auf Fensterbrett",
-    secondImgUrl: "/assets/startseite/3.JPG",
+    secondImgUrl: "/assets/startseite/Raum_8.JPG",
     secondImgAlt: "Buddha Kerze anzünden",
   },
 ];
@@ -88,34 +90,52 @@ export const landingOffersData = [
     id: 1,
     title: "Ernährungsberatung",
     description:
-      "Ernährungsberatung optimiert die Gesundheit durch maßgeschneiderte Ernährungspläne, fördert gesunde Gewohnheiten und unterstützt Gewichtsmanagement sowie Wohlbefinden.",
+      "Ernährungsberatung optimiert die Gesundheit durch maßgeschneiderte Ernährungspläne, fördert die Gesundheit & das Wohlbefinden.",
   },
   {
     id: 2,
     title: "Yoga",
     description:
-      "Yoga vereint Körper und Geist, fördert Flexibilität, Kraft und innere Ruhe. Perfekt für Stressabbau und ganzheitliches Wohlbefinden.",
+      "Yoga verbessert das Körperbewusstsein, reduziert Stress, fördert Entspannung und stärkt die Verbindung zwischen Körper und Geist.",
   },
   {
     id: 3,
-    title: "Sporttherapie",
+    title: "Personal Training",
     description:
-      "Sporttherapie verbessert Gesundheit durch gezielte Bewegung, rehabilitiert Verletzungen, stärkt den Körper und fördert langfristiges Wohlbefinden.",
+      "Personal Training ist gezieltes, individuelles Training zur Verbesserung der körperlichen Fitness und Förderung der Gesundheit.",
+  },
+  {
+    id: 4,
+    title: "Wirbelsäulengymnastik",
+    description:
+      "Stärke präventiv deinen Rücken in meiner Wirbelsäulengymnastik. In kleinen Gruppen fördern wir deine Beweglichkeit für eine gesunde Wirbelsäule.",
   },
 ];
 
 // Parallax Scroll Animation Images
 // Bild in "public/assets/startseite" ablegen und den Pfad hier eintragen
 export const parallaxImages = [
-  "/assets/startseite/1.JPG",
-  "/assets/startseite/2.JPG ",
-  "/assets/startseite/3.JPG",
-  "/assets/startseite/4.JPG",
-  "/assets/startseite/5.JPG",
-  "/assets/startseite/6.JPG",
-  "/assets/startseite/7.JPG",
-  "/assets/startseite/8.JPG",
-  "/assets/startseite/10.JPG",
+  "/assets/startseite/Chin_Mudra.jpeg",
+  "/assets/startseite/Raum_1.jpeg",
+  "/assets/startseite/Raum_2.jpeg",
+  "/assets/startseite/Raum_3.jpeg",
+  "/assets/startseite/Raum_4.jpeg",
+  "/assets/startseite/Raum_5.jpeg",
+  "/assets/startseite/Raum_6.JPG",
+  "/assets/startseite/Raum_7.JPG",
+  "/assets/startseite/Raum_8.JPG",
+  "/assets/startseite/Raum_9.JPG",
+  "/assets/startseite/Raum_10.JPG",
+  "/assets/startseite/Raum_11.JPG",
+  "/assets/startseite/Raum_12.JPG",
+  "/assets/startseite/Raum_13.JPG",
+  "/assets/startseite/Raum_14.JPG",
+  "/assets/startseite/Raum_15.JPG",
+  "/assets/startseite/Krieger_1.jpeg",
+  "/assets/startseite/Krieger_3.jpeg",
+  "/assets/startseite/Schneidersitz_2.jpeg",
+  "/assets/startseite/Schneidersitz.jpeg",
+  "/assets/startseite/Wirbelsäule.jpeg",
 ];
 
 // * Über-Mich Seite
@@ -132,19 +152,19 @@ export const aboutFirst = {
     header: "Wer bin ich?",
     firstParagraph:
       "Ich bin Mary, arbeite als Sporttherapeutin in eine Rehaklinik. Mein lang gehegter Traum ist es ein eigenes Yoga-Studio zu führen, in dem ich meine Kenntnisse und Erfahrungen mit euch teilen kann. Diesen Traum habe ich mir vor kurzem mit „Fit mit Mary“ erfüllt.",
-    imgUrl: "/assets/maria/maria.jpg",
+    imgUrl: "/assets/maria/maria-hero.png",
   },
   secondSection: {
     header: "Mein Yogastudio:",
     secondParagraph:
       "In meinem Studio biete ich unter anderem Yoga-Kurse, Personal-Training, Ernährungsberatung und Wirbelsäulengymnastik an. Mein Ziel ist es euch zu einem Leben mit mehr Spaß, Leichtigkeit und Lebensfreude sowie einem besseren Körpergefühl zu verhelfen.",
-    imgUrl: "/assets/ueber-mich/kissen.jpg",
+    imgUrl: "/assets/ueber-mich/kissen.jpeg",
   },
   thirdSection: {
     header: "Vorteile:",
     thirdParagraph:
       "Teilnahme an einem Yogakurs bietet zahlreiche Vorteile: Verbesserung der Flexibilität, Stärkung der Muskulatur und Förderung der inneren Ruhe. Reduzieren Sie Stress, steigern Sie Ihre Konzentration und fördern Sie das allgemeine Wohlbefinden. Geeignet für alle Altersgruppen, bringt Yoga Körper und Geist in Einklang.",
-    imgUrl: "/assets/maria/mariaYoga.jpg",
+    imgUrl: "/assets/maria/mariaYoga.jpeg",
   },
 };
 
@@ -182,7 +202,7 @@ export const yogaOffers = {
       imgUrl: "",
       imgAlt: "Yoga",
       description:
-        "Perfekt, wenn du noch nie Yoga praktiziert hast. Hier bringe ich dir die Grundlagen bei.",
+        "Ideal für Anfänger und Geübte. Wähle den für dich geeigneten Hatha Yoga Kurs aus.",
       price: "120,00",
       ad_1: "Verbesserte Flexibilität",
       ad_2: "Stressabbau und Entspannung",
@@ -196,13 +216,13 @@ export const yogaOffers = {
       imgUrl: "",
       imgAlt: "Yoga",
       description:
-        "Für Fortgeschrittene, die ihre Praxis vertiefen möchten. Ideal für alle, die regelmäßig Yoga praktizieren.",
+        "Ideal für alle, die nach einer ruhigen Praxis mit langen Dehnungen suchen (Faszienyoga).",
       price: "144,00",
-      ad_1: "Intensivierung der Praxis",
-      ad_2: "Erweiterung des Übungsrepertoires",
-      ad_3: "Vertiefung der Atemtechniken",
-      ad_4: "Verbesserte mentale Konzentration und Meditation",
-      ad_5: "Steigerung der Körperkraft",
+      ad_1: "Dehnt den ganzen Körper",
+      ad_2: "Fördert tiefe Entspannung",
+      ad_3: "Stärkt Bindegewebe und Gelenke",
+      ad_4: "Unterstützt die Flexibilität",
+      ad_5: "Beruhigt den Geist",
     },
     {
       id: 3,
@@ -210,12 +230,12 @@ export const yogaOffers = {
       imgUrl: "",
       imgAlt: "Yoga",
       description:
-        "Ideal für alle, die regelmäßig Yoga praktizieren und ihre Praxis intensivieren möchten.",
+        "Ideal für alle, die eine persönliche Einzelstunde im Yoga Studio oder auf Anfrage bei sich zuhause wünschen.",
       price: "85,00",
       ad_1: "Individuelle Betreuung",
       ad_2: "Anpassung der Praxis an die persönlichen Bedürfnisse",
       ad_3: "Vertiefung der Atemtechniken",
-      ad_4: "Förderung der Konzentration",
+      ad_4: "Stressabbau und Entspannung",
       ad_5: "Steigerung der Körperkraft",
     },
   ],
@@ -244,35 +264,59 @@ export const wirbelsäulengymnastikData = {
     "Bewegungstherapie, die speziell darauf abzielt, die Muskulatur der Wirbelsäule zu stärken, die Beweglichkeit zu verbessern und Haltungsschäden vorzubeugen und zu korrigieren. Durch gezielte Übungen werden Rücken- u. Bauchmuskeln trainiert, um die Wirbelsäule zu stabilisieren und Schmerzen vorzubeugen.",
 };
 
-export const exampleCourses: Course[] = [
+export const courses = [
   {
-    id: "1",
     title: "Auszeit für Dich - Hatha Yoga für Anfänger",
-    startDate: "2024-09-01",
-    time: "10:00",
-    endDate: "2024-09-01",
-    price: "150,00€",
-    description: "Einführung in die Welt des Yoga für absolute Anfänger.",
+    startDate: "2024-10-14T00:00:00Z", // Ensure this is a valid date string
+    endDate: "2024-12-02T00:00:00Z", // Ensure this is a valid date string
+    time: "08:30 - 09:45 Uhr",
+    price: "120,00€",
+    description: "8 Einheiten | 75 Minuten pro Einheit",
     imgUrl: "/assets/kursuebersicht/kursuebersicht-figur-hochformat.JPG",
   },
   {
-    id: "2",
-    title: "Fortgeschrittenes Hatha Yoga",
-    startDate: "2024-09-02",
-    time: "18:00",
-    endDate: "2024-09-02",
-    price: "150,00€",
-    description: "Hatha Yoga mit fortgeschrittenen Asanas.",
+    title: "Hatha Yoga für Anfänger",
+    startDate: "2024-10-15T00:00:00Z", // Ensure this is a valid date string
+    endDate: "2024-12-02T00:00:00Z", // Ensure this is a valid date string
+    time: "18:00 - 19:15 Uhr",
+    price: "120,00€",
+    description: "8 Einheiten | 75 Minuten pro Einheit",
     imgUrl: "/assets/kursuebersicht/kursuebersicht-yogaraum-hochformat.JPG",
   },
   {
-    id: "3",
-    title: "Meditation und Entspannung",
-    startDate: "2024-09-03",
-    time: "20:00",
-    endDate: "2024-09-03",
-    price: "150,00€",
-    description: "Geführte Meditationen zur Entspannung und Stressbewältigung.",
+    title: "Hatha Yoga für Geübte",
+    startDate: "2024-10-16T00:00:00Z", // Ensure this is a valid date string
+    endDate: "2024-12-04T00:00:00Z", // Ensure this is a valid date string
+    time: "18:00 - 19:15 Uhr",
+    price: "120,00€",
+    description: "8 Einheiten | 75 Minuten pro Einheit",
     imgUrl: "/assets/kursuebersicht/kursuebersicht-hatha-yoga-hochformat-2.JPG",
+  },
+  {
+    title: "Fit am Morgen mit Wirbelsäulengymnastik",
+    startDate: "2024-10-14T00:00:00Z", // Ensure this is a valid date string
+    endDate: "2024-12-09T00:00:00Z", // Ensure this is a valid date string
+    time: "10:00 - 11:00 Uhr",
+    price: "150,00€",
+    description: "10 Einheiten | 60 Minuten pro Einheit",
+    imgUrl: "/assets/kursuebersicht/wirbelsaeulengymnastik.JPG",
+  },
+  {
+    title: "Yin Yoga",
+    startDate: "2024-10-15T00:00:00Z", // Ensure this is a valid date string
+    endDate: "2024-12-03T00:00:00Z", // Ensure this is a valid date string
+    time: "19:30 - 21:00 Uhr",
+    price: "144,00€",
+    description: "8 Einheiten | 90 Minuten pro Einheit",
+    imgUrl: "/assets/kursuebersicht/yin.JPG",
+  },
+  {
+    title: "Wirbelsäulengymnastik",
+    startDate: "2024-10-16T00:00:00Z", // Ensure this is a valid date string
+    endDate: "2024-12-11T00:00:00Z", // Ensure this is a valid date string
+    time: "19:30 - 20:30 Uhr",
+    price: "150,00€",
+    description: "10 Einheiten | 60 Minuten pro Einheit",
+    imgUrl: "/assets/kursuebersicht/wirbelsaeulengymnastik2.JPG",
   },
 ];

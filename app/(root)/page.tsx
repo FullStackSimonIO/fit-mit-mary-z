@@ -1,21 +1,15 @@
-import Hero from "@/components/NewHero";
-import Navbar from "@/components/Navbar";
-
-
-import Info from "@/components/Info";
-import LandingOffers from "@/components/LandingOffers";
-import Footer from "@/components/Footer";
-import { ParallaxImageContainer } from "@/components/ParallaxImageContainer";
+import Info from "@/components/home/Info";
+import LandingOffers from "@/components/home/LandingOffers";
+import YogaHero from "@/components/home/Hero";
+import { ParallaxImageContainer } from "@/components/home/ParallaxImageContainer";
 
 const Home = () => {
   return (
     <div className="bg-[#EEFFF3]">
-      <Navbar />
-      <Hero />
+      <YogaHero />
       <Info />
       <LandingOffers />
       <ParallaxImageContainer />
-      <Footer />
     </div>
   );
 };
