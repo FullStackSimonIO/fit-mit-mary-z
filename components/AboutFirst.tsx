@@ -23,11 +23,10 @@ const AboutFirst = () => {
               <div className="w-full lg:w-auto flex justify-center lg:justify-start">
                 <Image
                   src={aboutFirst.firstSection.imgUrl}
-                  alt="Image"
+                  alt="Foto von Maria"
                   width={300}
                   height={300}
-                  className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen max-w-sm"
-                  unoptimized
+                  className="object-cover w-full h-full rounded-lg shadow-lg border-4 border-primary-buttonGreen max-w-sm"
                 />
               </div>
               <div className="w-full lg:max-w-lg xl:max-w-2xl">
@@ -64,7 +63,6 @@ const AboutFirst = () => {
               width={500}
               height={500}
               className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen max-w-sm lg:max-w-md"
-              unoptimized
             />
           </div>
         </div>
@@ -78,7 +76,6 @@ const AboutFirst = () => {
                 width={500}
                 height={500}
                 className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen max-w-sm lg:max-w-md"
-                unoptimized
               />
             </div>
             <div className="w-full lg:max-w-lg xl:max-w-2xl">
@@ -97,9 +94,9 @@ const AboutFirst = () => {
         <div className="flex items-center justify-center pt-24">
           <Button
             duration={2000}
-            className="text-primary-backgroundGreen bg-primary-buttonGreen justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            className="text-primary-backgroundGreen bg-primary-buttonGreen justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
           >
-            TERMIN ANFRAGEN
+            JETZT ANMELDEN
             <svg
               aria-hidden="true"
               className="w-5 h-5 ml-2 -mr-1"
