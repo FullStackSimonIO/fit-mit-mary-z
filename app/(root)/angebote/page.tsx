@@ -1,8 +1,8 @@
-import Wirbelsäulengymnastik from "@/components/Wirbelsäulengymnastik";
-import YogaOffers from "@/components/YogaOffers";
-import YogaTypes from "@/components/YogaTypes";
+import Wirbelsäulengymnastik from "@/components/offers/Wirbelsäulengymnastik";
+import YogaOffers from "@/components/offers/YogaOffers";
+import YogaTypes from "@/components/offers/YogaTypes";
 import React from "react";
-import PersonalTrainingSection from "@/components/PersonalTrainingSection";
+import PersonalTrainingSection from "@/components/offers/PersonalTrainingSection";
 
 import { Metadata } from "next";
 import Ernährungsberatung from "@/components/offers/Ernährungsberatung";

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { yogaOffers } from "@/data";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 const YogaOffers = () => {
   return (
@@ -64,14 +64,6 @@ const YogaOffers = () => {
                         </li>
                       ))}
                   </ul>
-                </div>
-                <div className="text-center mt-auto">
-                  <Button
-                    variant="ghost"
-                    className="w-full py-3 text-lg font-bold"
-                  >
-                    <a href="/kontakt">Termin sichern</a>
-                  </Button>
                 </div>
               </div>
             ))}
