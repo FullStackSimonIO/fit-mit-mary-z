@@ -1,4 +1,4 @@
-import Teilnahmebedingungen from "@/components/Teilnahmebedingungen";
+import Teilnahmebedingungen from "@/components/legal/Teilnahmebedingungen";
 
 const TeilnahmebedingungenPage = () => {
   return (
