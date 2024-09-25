@@ -12,10 +12,10 @@ const Wirbelsäulengymnastik = () => {
             <div className="w-full lg:w-1/2 mb-8 lg:mb-0 flex justify-center lg:justify-end">
               <div className="border-4 border-primary-buttonGreen rounded-lg shadow-lg w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-full">
                 <Image
-                  src="/assets/wirbelsaeulengymnastik.jpg"
+                  src="/assets/angebote/angebote-wirbelsäulengymnastik-querformat.JPG"
                   alt="Wirbelsäulengymnastik"
                   width={500}
-                  height={750}
+                  height={500}
                   className="rounded-lg object-cover w-full h-full"
                   priority={true}
                 />
