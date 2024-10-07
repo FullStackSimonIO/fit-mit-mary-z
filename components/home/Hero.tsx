@@ -74,19 +74,19 @@ export default function YogaHero() {
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
-              title: "Anfängerkurse",
+              title: "Yogakurse",
               description:
-                "Du hast noch nie Yoga gemacht? Kein Problem! In meinen Anfängerkursen lernst du die Grundlagen des Yoga und findest deinen Einstieg in die Welt der Entspannung und Bewegung.",
+                "Entdecke die wohltuende Wirkung von Yoga! Ob Einsteiger oder geübter Yogi -  meine Kurse bieten dir die perfekte Mischung aus Entspannung, Kraft und Flexibilität. Lerne die Grundlagen oder vertiefe deine Praxis unter professioneller Anleitung.",
             },
             {
-              title: "Fortgeschrittene",
+              title: "Präventionskurse",
               description:
-                "Du bist bereits ein erfahrener Yogi? Dann sind meine Fortgeschrittenenkurse genau das Richtige für dich. Hier kannst du deine Fähigkeiten vertiefen und neue Techniken erlernen.",
+                "Hier stärken wir deine Wirbelsäule und lockern verklebte Faszien um Schmerzen vorzubeugen und deine Beweglichkeit zu verbessern. Die Kurse werden von der Krankenkasse bezuschusst und du bekommst bis zu 100% der Kursgebühr wieder zurück.",
             },
             {
-              title: "Sporttherapie & Prävention",
+              title: "Einzelkurse",
               description:
-                "Du möchtest Yoga als Therapie nutzen? In meinen Sporttherapie- und Präventionskursen zeige ich dir, wie du Yoga gezielt zur Behandlung von Beschwerden und zur Vorbeugung von Verletzungen einsetzen kannst.",
+                "Leidest du unter chronischen Schmerzen? In unserer individuellen medizinischen Trainingstherapie arbeiten wir gezielt an deinen Beschwerden um Schmerzen zu lindern und deine Beweglichkeit wiederherzustellen. Maßgeschneiderte Übungen und persönliche Betreuung für deinen Weg zum Wohlbefinden.",
             },
           ].map((feature, index) => (
             <Card

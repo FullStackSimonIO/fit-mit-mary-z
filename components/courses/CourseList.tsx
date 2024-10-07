@@ -57,7 +57,7 @@ const CourseList: React.FC = () => {
             className="bg-[#2D4542] text-white hover:bg-[#1A2A29] text-lg px-8 py-4 rounded-full shadow-lg transition-all duration-300 ease-in-out"
             onClick={() => console.log("Clicked on View All Courses")}
           >
-            <a href="/kontakt">JETZT INFORMIEREN</a>
+            <a href="/kontakt">JETZT ANMELDEN</a>
           </Button>
         </motion.div>
       </div>
