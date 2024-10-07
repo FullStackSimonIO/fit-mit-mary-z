@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Navigation from "@/components/shared/navigation/Navigation";
 import Footer from "@/components/shared/footer/Footer";
 
@@ -43,6 +44,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <Analytics />
+        <SpeedInsights />
 
         {/* Facebook Pixel */}
         {/* <Script id="facebook-pixel" strategy="afterInteractive">
