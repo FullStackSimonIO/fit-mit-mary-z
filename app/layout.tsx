@@ -39,6 +39,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          id="Cookiebot"
+          src="https://consent.cookiebot.com/uc.js"
+          data-cbid="157f0bd6-6cac-4835-a384-81bc3ee8a552"
+          data-blockingmode="auto"
+          type="text/javascript"
+          async
+        ></script>
+      </head>
       <body className={`${lato.className} bg-primary-backgroundGreen`}>
         <Navigation />
         {children}
