@@ -41,11 +41,11 @@ export const AboutFirst = (props: Layout458Props) => {
           <div className="flex h-full flex-col">
             <p className="mb-3 font-semibold md:mb-4">{tagline}</p>
             <h1
-              className="text-5xl font-bold md:text-7xl lg:text-8xl"
+              className="text-5xl font-bold md:text-7xl lg:text-8xl text-primary-buttonGreen"
               dangerouslySetInnerHTML={{ __html: heading }}
             />
           </div>
-          <div className="mx-[7.5%] flex flex-col justify-end md:mt-40">
+          <div className="mx-[7.5%] flex flex-col justify-end md:mt-40 font-semibold">
             <p
               className="md:text-md"
               dangerouslySetInnerHTML={{ __html: description }}
@@ -77,10 +77,11 @@ export const AboutFirst = (props: Layout458Props) => {
                   height={400}
                 />
               </div>
-              <h2 className="mb-3 text-2xl font-bold md:mb-4 md:text-3xl md:leading-[1.3] lg:text-4xl">
+              <h2 className="mb-3 text-2xl font-bold md:mb-4 md:text-3xl md:leading-[1.3] lg:text-4xl text-primary-buttonGreen">
                 {feature.heading}
               </h2>
               <p
+                className="font-semibold md:text-md"
                 dangerouslySetInnerHTML={{
                   __html: feature.description,
                 }}
