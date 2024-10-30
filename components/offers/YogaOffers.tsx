@@ -6,7 +6,7 @@ import { Button } from "../ui/button";
 const YogaOffers = () => {
   return (
     <div>
-      <section className="bg-primary-backgroundGreen py-8 px-4 lg:py-16 lg:px-6 w-full min-h-screen">
+      <section className="bg-primary-backgroundGreen py-8 px-4 lg:py-16 lg:px-6 w-full">
         <div className="mx-auto max-w-screen-xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-extrabold text-primary-buttonGreen mb-4">
