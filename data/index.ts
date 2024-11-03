@@ -27,8 +27,6 @@ Grundstruktur der Bildpfade: "/assets/seitenname/bildname.format" (z.B. "/assets
 
 */
 
-import { Course } from "../types/types";
-
 //* Hier befinden sich allgemeine Daten, die auf der Website angezeigt werden. Diese Daten können hier geändert werden.
 
 // ! Metadata
