@@ -1,11 +1,15 @@
 // app/components/CourseList.tsx
 
 import React from "react";
-import { getCourses } from "@/lib/getCourses"; // Diese Funktion lädt Daten von Prisma
 import CourseCard from "./CourseCard";
+import { Course } from "@/types";
+import { getCourses } from "@/lib/getCourses";
 
-// Server-Komponente, die Daten abruft und CourseCards rendert
-const CourseList = async () => {
+interface CourseListProps {
+  courses: Course[];
+}
+
+const CourseList: React.FC<CourseListProps> = async () => {
   const courses = await getCourses();
 
   return (

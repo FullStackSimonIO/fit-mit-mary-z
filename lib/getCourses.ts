@@ -1,13 +1,10 @@
 // lib/getCourses.ts
-import { PrismaClient } from "@prisma/client";
-
-const prisma = new PrismaClient();
+import { Prisma, PrismaClient } from "@prisma/client";
+import { Course } from "@/types";
 
 export const getCourses = async () => {
-  try {
-    return await prisma.kurse.findMany();
-  } catch (error) {
-    console.error("Fehler beim Abrufen der Kurse:", error);
-    return [];
-  }
+  const prisma = new PrismaClient();
+  const courses = await prisma.kurse.findMany();
+  await prisma.$disconnect();
+  return courses;
 };

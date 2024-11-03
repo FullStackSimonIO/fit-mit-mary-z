@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CalendarIcon, ClockIcon, CreditCardIcon } from "lucide-react";
 
-interface CourseCardProps {
+export interface CourseCardProps {
   title: string;
   description: string;
   startDate: string;
