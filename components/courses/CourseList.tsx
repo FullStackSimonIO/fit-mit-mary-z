@@ -9,7 +9,7 @@ interface CourseListProps {
   courses: Course[];
 }
 
-const CourseList: React.FC<CourseListProps> = async () => {
+const CourseList = async () => {
   const courses = await getCourses();
 
   return (
