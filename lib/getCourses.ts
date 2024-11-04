@@ -8,3 +8,4 @@ export const getCourses = async () => {
   await prisma.$disconnect();
   return courses;
 };
+  
