@@ -1,4 +1,4 @@
-import { AboutFirst } from "@/components/about/AboutFirst";
+import AboutFirst from "@/components/about/AboutFirst";
 import { Ausbildungen } from "@/components/about/Ausbildungen";
 import { Metadata } from "next";
 

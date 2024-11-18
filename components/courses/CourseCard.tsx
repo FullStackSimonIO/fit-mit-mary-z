@@ -60,7 +60,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
               </div>
               <div className="flex items-center text-sm text-gray-500">
                 <CreditCardIcon className="mr-2 h-4 w-4 flex-shrink-0" />
-                <span className="truncate">Preis: {price}</span>
+                <span className="truncate">Preis: {price} €</span>
               </div>
             </div>
           </CardContent>

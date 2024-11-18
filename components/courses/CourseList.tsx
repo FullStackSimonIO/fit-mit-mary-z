@@ -5,10 +5,6 @@ import CourseCard from "./CourseCard";
 import { Course } from "@/types";
 import { getCourses } from "@/lib/getCourses";
 
-interface CourseListProps {
-  courses: Course[];
-}
-
 const CourseList = async () => {
   const courses = await getCourses();
 
@@ -27,12 +23,12 @@ const CourseList = async () => {
             <CourseCard
               key={course.id}
               title={course.name}
-              description={course.beschreibung}
-              startDate={course.startDatum}
-              endDate={course.endDatum}
-              price={course.preis}
-              duration={course.dauer}
-              imgUrl={course.bild}
+              description={course.description}
+              startDate={course.startDate}
+              endDate={course.endDate}
+              price={course.price}
+              duration={course.duration}
+              imgUrl={course.imgUrl}
             />
           ))}
         </div>

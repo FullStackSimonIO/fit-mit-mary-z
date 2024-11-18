@@ -1,2 +1,0 @@
--- AlterTable
-ALTER TABLE "Kurse" ALTER COLUMN "dauer" SET DATA TYPE TEXT;
