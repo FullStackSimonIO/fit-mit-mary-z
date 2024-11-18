@@ -68,7 +68,9 @@ const AboutFirst = () => {
                             {section.header}
                           </CardTitle>
                         </CardHeader>
-                        <p className="text-base text-[#1f2937]">awdaw</p>
+                        <p className="text-base text-[#1f2937]">
+                          {section.paragraph}
+                        </p>
                       </div>
                     </div>
                   </CardContent>
