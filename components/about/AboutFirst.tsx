@@ -91,7 +91,7 @@ const AboutFirst = () => {
           size="lg"
           className="bg-[#2D4542] text-primary-backgroundGreen hover:bg-[#1f2937] transition-all duration-300 transform hover:scale-105"
         >
-          TERMIN ANFRAGEN
+          <a href="/kontakt">TERMIN ANFRAGEN</a>
           <motion.svg
             whileHover={{ x: 5 }}
             className="w-5 h-5 ml-2"

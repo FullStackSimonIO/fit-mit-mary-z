@@ -9,9 +9,11 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <>
-      <ContactForm />
-    </>
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-grow">
+        <ContactForm />
+      </main>
+    </div>
   );
 };
 
