@@ -1,11 +1,12 @@
-// pages/index.tsx
-import React from "react";
 import CourseList from "@/components/courses/CourseList";
-import { getCourses } from "@/lib/getCourses";
-import { Course } from "@/types";
+import React from "react";
 
-const HomePage = () => {
-  return <CourseList />;
+const CoursesPage = () => {
+  return (
+    <div>
+      <CourseList />
+    </div>
+  );
 };
 
-export default HomePage;
+export default CoursesPage;

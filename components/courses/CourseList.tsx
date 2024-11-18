@@ -1,12 +1,10 @@
-// app/components/CourseList.tsx
-
 import React from "react";
 import CourseCard from "./CourseCard";
-import { Course } from "@/types";
-import { getCourses } from "@/lib/getCourses";
+import { prisma } from "@/lib/prisma";
 
 const CourseList = async () => {
-  const courses = await getCourses();
+  // Kurse aus der Datenbank abrufen
+  const courses = await prisma.course.findMany();
 
   return (
     <section className="w-full bg-[#EEFFF3] py-16 lg:py-24">
@@ -24,8 +22,8 @@ const CourseList = async () => {
               key={course.id}
               title={course.name}
               description={course.description}
-              startDate={course.startDate}
-              endDate={course.endDate}
+              startDate={course.startDate.toString().split("T")[0]} // Formatierung
+              endDate={course.endDate.toString().split("T")[0]} // Formatierung
               price={course.price}
               duration={course.duration}
               imgUrl={course.imgUrl}
