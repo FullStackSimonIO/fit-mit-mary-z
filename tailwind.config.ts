@@ -9,6 +9,7 @@ const {
 const config = {
   darkMode: ["class"],
   content: [
+    "./node_modules/@relume_io/relume-ui/dist/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
@@ -98,6 +99,7 @@ const config = {
       },
     },
   },
+  presets: [require("@relume_io/relume-tailwind")],
   plugins: [require("tailwindcss-animate"), addVariablesForColors],
 } satisfies Config;
 

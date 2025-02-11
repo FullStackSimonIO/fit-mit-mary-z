@@ -26,6 +26,10 @@ const links = [
     name: "kontakt",
     path: "/kontakt",
   },
+  {
+    name: "yoga retreat",
+    path: "/yoga-retreat",
+  },
 ];
 
 const Navbar = () => {

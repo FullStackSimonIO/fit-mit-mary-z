@@ -41,6 +41,11 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="vPG/okqHruaoi23iKSZPeA"
+          async
+        ></script>
+        <script
           id="Cookiebot"
           src="https://consent.cookiebot.com/uc.js"
           data-cbid="157f0bd6-6cac-4835-a384-81bc3ee8a552"
